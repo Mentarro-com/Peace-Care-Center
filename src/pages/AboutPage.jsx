@@ -1,9 +1,10 @@
 import React from 'react'
+import Testimonial from '../components/Testimonial'
 
 const AboutPage = () => {
   return (
     <div className='text-black mt-16' >
-      AboutPage
+      <Testimonial />
     </div>
   )
 }
