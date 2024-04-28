@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { animated, useSpring } from "react-spring";
 
+
 function FeatureCard({ icon, title, description }) {
   return (
     
@@ -48,7 +49,7 @@ function ImageContainer({ imageUrl, imageAlt }) {
 
 function FeatureSection() {
 
-    const [isVisibleFirst, setIsVisibleFirst] = useState(false);
+  const [isVisibleFirst, setIsVisibleFirst] = useState(false);
   const [isVisibleSecond, setIsVisibleSecond] = useState(false);
   const [isVisibleThird, setIsVisibleThird] = useState(false);
   const [isVisibleFourth, setIsVisibleFourth] = useState(false);
@@ -65,14 +66,14 @@ function FeatureSection() {
         const windowHeight = window.innerHeight;
         const targetPositionFirst = windowHeight * 0;
         const targetPositionSecond = windowHeight * 0.6;
-        const targetPositionThird = windowHeight * 1.5;
-        const targetPositionFourth = windowHeight * 2.1;
+        const targetPositionThird = windowHeight * 1.3;
+        const targetPositionFourth = windowHeight * 2.2;
         const targetPositionFifth = windowHeight * 2.9;
-        const targetPositionSixth = windowHeight * 3.7;
-        const targetPositionSeventh = windowHeight * 4.5;
-        const targetPositionEighth = windowHeight * 5.4;
-        const targetPositionNineth = windowHeight * 6.0;
-        const targetPositionTenth = windowHeight * 6.7;
+        const targetPositionSixth = windowHeight * 3.6;
+        const targetPositionSeventh = windowHeight * 4.3;
+        const targetPositionEighth = windowHeight * 4.9;
+        const targetPositionNineth = windowHeight * 5.7;
+        const targetPositionTenth = windowHeight * 6.6;
         setIsVisibleFirst(scrollPosition > targetPositionFirst);
         setIsVisibleSecond(scrollPosition > targetPositionSecond);
         setIsVisibleThird(scrollPosition > targetPositionThird);

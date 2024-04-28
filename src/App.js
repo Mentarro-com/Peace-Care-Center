@@ -6,8 +6,8 @@ import AboutPage from "./pages/AboutPage"
 import ServicePage from "./pages/ServicePage"
 import GalleryPage from "./pages/GalleryPage"
 import ContactPage from "./pages/ContactPage"
-// import Samp from "./components/Samp"
-// import WhatsApp from './components/Whatsapp.jsx';
+import WhatsApp from './components/Whatsapp.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   return (
@@ -22,6 +22,10 @@ function App() {
         <Route path="/GalleryPage" element={<GalleryPage />} />
         <Route path="/ContactPage" element={<ContactPage />} />
         </Routes>
+
+        <WhatsApp />
+
+        <Footer />
 
     </Router>
     

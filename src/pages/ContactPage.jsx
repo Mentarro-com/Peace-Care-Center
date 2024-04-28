@@ -1,9 +1,10 @@
 import React from 'react'
+import ContactMap from '../components/ContactMap'
 
 const ContactPage = () => {
   return (
     <div className='text-black mt-16'>
-      ContactPage
+      <ContactMap />
     </div>
   )
 }
