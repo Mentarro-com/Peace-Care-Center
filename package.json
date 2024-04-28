@@ -19,6 +19,7 @@
     "react-native": ">=0.58",
     "react-router-dom": "^6.23.0",
     "react-scripts": "5.0.1",
+    "react-spring": "^9.7.3",
     "react-zdog": "^1.0",
     "three": ">=0.126",
     "tsutils": "^3.21.0",

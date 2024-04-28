@@ -6,7 +6,7 @@ import AboutPage from "./pages/AboutPage"
 import ServicePage from "./pages/ServicePage"
 import GalleryPage from "./pages/GalleryPage"
 import ContactPage from "./pages/ContactPage"
-import Samp from "./components/Samp"
+// import Samp from "./components/Samp"
 // import WhatsApp from './components/Whatsapp.jsx';
 
 function App() {
