@@ -3,7 +3,7 @@ import {Autoplay, Pagination, Navigation } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
 import { Swiper as SwiperReact, SwiperSlide } from 'swiper/react';
 
-// SwiperCore.use([Autoplay, Pagination, Navigation]);
+SwiperCore.use([Autoplay, Pagination, Navigation]);
 
 function Testimonial() {
     const testimonials = [
