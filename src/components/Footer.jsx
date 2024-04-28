@@ -67,7 +67,7 @@ function Footer() {
           </div>
         </div>
   
-        <p className="text-center z-[1] mt-8 text-white-300">&copy; Copyright Go Green Care Centre Pozhichalur. All rights reserved</p>
+        <p className="text-center z-[1] mt-8  text-white">&copy; Copyright Go Green Care Centre Pozhichalur. All rights reserved</p>
 
       
         <div aria-hidden="true" className="absolute h-full inset-0 flex items-center">
