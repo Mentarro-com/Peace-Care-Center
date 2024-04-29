@@ -1,10 +1,12 @@
 import React from 'react'
 import PhotoOne from '../components/PhotoOne'
 import PhotoTwo from '../components/PhotoTwo'
+import Banner from '../components/Banner'
 
 const GalleryPage = () => {
   return (
-    <div className='text-black mt-16'>
+    <div >
+      <Banner />
       <PhotoOne />
       <PhotoTwo />
     </div>

@@ -6,7 +6,7 @@ import Marquee from '../components/AboutMarquee'
 
 const AboutPage = () => {
   return (
-    <div className='text-black mt-16' >
+    <div className='text-black' >
       <Aboutfirst />
       <AboutStep />
       <Testimonial />

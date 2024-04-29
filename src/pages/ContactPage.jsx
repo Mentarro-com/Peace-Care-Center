@@ -3,7 +3,7 @@ import ContactMap from '../components/ContactMap'
 
 const ContactPage = () => {
   return (
-    <div className='text-black mt-16'>
+    <div className='text-black '>
       <ContactMap />
     </div>
   )

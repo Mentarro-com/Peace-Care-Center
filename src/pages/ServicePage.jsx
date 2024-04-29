@@ -2,9 +2,11 @@ import React from 'react'
 import Service from '../components/Service'
 import FeatureSection from '../components/FeaturesSection'
 
+
 const ServicePage = () => {
   return (
-    <div className='text-black mt-16'>
+    <div>
+    
     <Service />
     <FeatureSection />
     </div>

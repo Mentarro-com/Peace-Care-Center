@@ -6,7 +6,7 @@ import ImageSlider from '../components/ImageSlider'
 
 const HomePage = () => {
   return (
-    <div className='text-black mt-16'>
+    <div >
       <HomeBg />
       <ImageSlider />
       <CircleSlider />

@@ -15,13 +15,13 @@ const Info1 = ({ text, isMobile }) => {
   const [boxSize, setBoxSize] = useState({ width: 'auto', height: 'auto' });
 
   useEffect(() => {
-    const contentWidth = Math.min(400, text.length * 8); // Adjust the maximum width as needed
-    const contentHeight = Math.max(100, Math.ceil(text.length / 30) * 20); // Adjust the minimum height as needed
+    const contentWidth = Math.min(400, text.length * 8); 
+    const contentHeight = Math.max(100, Math.ceil(text.length / 30) * 20); 
     setBoxSize({ width: contentWidth + 'px', height: contentHeight + 'px' });
   }, [text]);
 
   return (
-    <div className={`bg-pink-200 p-4 rounded-lg ${isMobile ? 'bg-navy text-white' : ''}`} style={{ ...boxSize, fontSize: '18px', overflow: 'hidden', wordWrap: 'break-word' }}>
+    <div className={`bg-red-500 p-4 rounded-lg ${isMobile ? 'bg-navy text-white' : ''}`} style={{ ...boxSize, fontSize: '18px', overflow: 'hidden', wordWrap: 'break-word' }}>
       {text}
     </div>
   );
@@ -32,7 +32,7 @@ const ServiceCard = ({ service, isMobile, onLeftClick, onRightClick }) => {
 
   return (
     <div 
-      className={`p-4 my-4 rounded-lg border border-gray-300 shadow-md service-card ${isHovered ? 'transform scale-105 transition-transform duration-300' : 'transition-transform duration-300'}`}
+      className={`p-4  rounded-lg border border-gray-300 shadow-md service-card ${isHovered ? 'transform scale-105 transition-transform duration-300' : 'transition-transform duration-300'}`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       style={{ 
