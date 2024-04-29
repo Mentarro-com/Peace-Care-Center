@@ -21,7 +21,7 @@ const Info1 = ({ text, isMobile }) => {
   }, [text]);
 
   return (
-    <div className={`bg-red-500 p-4 rounded-lg ${isMobile ? 'bg-navy text-white' : ''}`} style={{ ...boxSize, fontSize: '18px', overflow: 'hidden', wordWrap: 'break-word' }}>
+    <div className={`bg-red-500 p-4 rounded-lg  ${isMobile ? 'bg-navy text-white' : ''}`} style={{ ...boxSize, fontSize: '18px', overflow: 'hidden', wordWrap: 'break-word' }}>
       {text}
     </div>
   );
@@ -94,9 +94,9 @@ const CardSlider = () => {
   ];
 
   return (
-    <div className="relative overflow-hidden h-screen w-screen flex justify-center items-center">
+    <div className="relative overflow-hidden h-screen w-7/5 flex justify-center items-center mt-20">
       {!isMobile && (
-        <div className="absolute top-1/2 left-1/4 transform -translate-x-1/2 -translate-y-1/2">
+        <div className="absolute ml-[90px] top-1/2 left-1/4 transform -translate-x-1/2 -translate-y-1/2">
           <FancyCarousel
             images={images}
             setFocusElement={setFocusElement}
@@ -111,11 +111,11 @@ const CardSlider = () => {
             centralImageIndex={3}
             className="z-0"
           />
-          <img src={logo} alt="Logo" className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48 h-48 rounded-full" />
+          <img src={logo} alt="Logo" className="absolute top-1/2 bg-black left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48 h-48 rounded-full" />
         </div>
       )}
       {!isMobile && (
-        <div className="absolute top-1/2 right-10 transform -translate-y-1/2 bg-aquamarine p-4">
+        <div className="absolute top-1/2 right-[9%] transform -translate-y-1/2 bg-aquamarine">
           <CSSTransition
             in={true}
             timeout={500}

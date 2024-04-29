@@ -14,10 +14,10 @@ function HowItWorksSection() {
       const handleScroll = () => {
         const scrollPosition = window.scrollY;
         const windowHeight = window.innerHeight;
-        const targetPositionFirst = windowHeight * 0.5;
-        const targetPositionSecond = windowHeight * 0.5;
-        const targetPositionThird = windowHeight * 0.5;
-        const targetPositionFour = windowHeight * 0.5;
+        const targetPositionFirst = windowHeight * 0.8;
+        const targetPositionSecond = windowHeight * 0.8;
+        const targetPositionThird = windowHeight * 0.8;
+        const targetPositionFour = windowHeight * 0.8;
         setIsVisibleFirst(scrollPosition > targetPositionFirst);
         setIsVisibleSecond(scrollPosition > targetPositionSecond);
         setIsVisibleThird(scrollPosition > targetPositionThird);

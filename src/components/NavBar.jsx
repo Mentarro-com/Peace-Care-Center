@@ -66,36 +66,34 @@ const Navbar = () => {
   const [Mobile, setMobile] = useState(false)
   return (
     <>
-      <nav className='navbar'>
-        <h3 className='logo'>PEACE CARE CENTER</h3>
-        {/*
-        if large screen ma xa bhane Mobile add huxa
-        if mobile screen ma xa bhane nav-links-mobile add huxa
-        */}
-        <ul className={Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}>
-          <Link to='/' className='home'>
-            <li>HOME</li>
-          </Link>
-          <Link to='/AboutPage' className='about'>
-            <li>ABOUT US</li>
-          </Link>
-          <Link to='/ServicePage' className='services'>
-            <li>SERVICES</li>
-          </Link>
-          <Link to='/GalleryPage' className='skills'>
-            <li>GALLERY</li>
-          </Link>
-          <Link to='/ContactPage' className='home'>
-            <li>CONTACT US</li>
-          </Link>
-        </ul>
-        {/* 
-        whenever we click on button = setMobile(!Mobile) ==  is mobile oppsite to setMobile 
-        */}
-        <button className='mobile-menu-icon' onClick={() => setMobile(!Mobile)}>
-          {Mobile ? <ImCross /> : <FaBars />}
-        </button>
-      </nav>
+      <nav className='navbar flex justify-between items-center'>
+  <h3 className='logo text-center sm:text-left sm:overflow-x-hidden whitespace-nowrap'>PEACE CARE CENTER</h3>
+  <button className='mobile-menu-icon' onClick={() => setMobile(!Mobile)}>
+    {Mobile ? <ImCross className="text-[12px]" /> : <FaBars className="text-xl" />}
+  </button>
+  {/*
+  if large screen ma xa bhane Mobile add huxa
+  if mobile screen ma xa bhane nav-links-mobile add huxa
+  */}
+  <ul className={Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}>
+    <Link to='/' className='home'>
+      <li>HOME</li>
+    </Link>
+    <Link to='/AboutPage' className='about'>
+      <li>ABOUT US</li>
+    </Link>
+    <Link to='/ServicePage' className='services'>
+      <li>SERVICES</li>
+    </Link>
+    <Link to='/GalleryPage' className='skills'>
+      <li>GALLERY</li>
+    </Link>
+    <Link to='/ContactPage' className='home'>
+      <li>CONTACT US</li>
+    </Link>
+  </ul>
+</nav>
+
     </>
   )
 }

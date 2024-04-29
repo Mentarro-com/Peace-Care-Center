@@ -8,6 +8,7 @@ import GalleryPage from "./pages/GalleryPage"
 import ContactPage from "./pages/ContactPage"
 import WhatsApp from './components/Whatsapp.jsx';
 import Footer from './components/Footer.jsx';
+import Scrollup from './components/scrollup.jsx'
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
         </Routes>
 
         <WhatsApp />
-
+        <Scrollup />
         <Footer />
 
     </Router>
