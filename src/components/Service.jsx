@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { animated, useSpring } from "react-spring";
+import Banner from "./Banner.jsx"
 
 
 function FeatureCard({ icon, title, description }) {
@@ -166,7 +167,7 @@ function FeatureSection() {
 
   return (
     <div>
-        <img src="./images/ServiceBanner.png" alt="Description" style={{ height: '200px' , width:'100%' }}/>
+        <Banner />
     <div className="relative overflow-hidden bg-gray-900 pt-16 pb-32 space-y-24">
     <h1 className="text-white text-center text-[60px] text-bold">Our Services</h1>
 <animated.div style={first}>

@@ -43,6 +43,7 @@ li {
   width: 100%; /* Expand the underline to match the width of the content on hover */
 }
 
+
 .logo {
   font-size: 30px;
 }
@@ -81,8 +82,9 @@ button {
   .logo {
     display: flex;
     position: absolute;
-    top: 15px;
-    left: 35px;
+    top: 18px;
+    left: 13px;
+    font-size: 22px;
   }
   .nav-links {
     display: none;

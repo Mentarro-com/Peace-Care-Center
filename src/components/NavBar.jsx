@@ -67,7 +67,7 @@ const Navbar = () => {
   return (
     <>
       <nav className='navbar flex justify-between items-center'>
-  <h3 className='logo text-center sm:text-left sm:overflow-x-hidden whitespace-nowrap'>PEACE CARE CENTER</h3>
+  <h3 className='logo '>PEACE CARE CENTER</h3>
   <button className='mobile-menu-icon' onClick={() => setMobile(!Mobile)}>
     {Mobile ? <ImCross className="text-[12px]" /> : <FaBars className="text-xl" />}
   </button>
@@ -76,7 +76,7 @@ const Navbar = () => {
   if mobile screen ma xa bhane nav-links-mobile add huxa
   */}
   <ul className={Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}>
-    <Link to='/' className='home'>
+    <Link to='/' className='home '>
       <li>HOME</li>
     </Link>
     <Link to='/AboutPage' className='about'>
