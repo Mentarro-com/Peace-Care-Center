@@ -69,7 +69,7 @@ const ContactPage = () => {
                      </div>
                     <div>
                       <p className="mb-1 text-neutral-700">Phone:</p>
-                      <p className="text-lg font-semibold text-neutral-900">(123) 456-7890</p>
+                      <p className="text-lg font-semibold text-neutral-900">+91 96770 95098</p>
                     </div>
                   </div>
                   <div className="mb-6 flex items-center">
@@ -78,7 +78,7 @@ const ContactPage = () => {
                     </div>
                     <div>
                       <p className="mb-1 text-neutral-700">Email:</p>
-                      <p className="text-lg font-semibold text-neutral-900">info@example.com</p>
+                      <p className="text-lg font-semibold text-neutral-900">gogreencare2020@gmail.com</p>
                     </div>
                   </div>
                   <div className="flex items-center">
@@ -87,7 +87,7 @@ const ContactPage = () => {
                     </div>
                     <div>
                       <p className="mb-1 text-neutral-700">Address:</p>
-                      <p className="text-lg font-semibold text-neutral-900">1234 Example St, San Francisco, CA 94110</p>
+                      <p className="text-lg font-semibold text-neutral-900">1No:15/179, Rajaji Street, Moovar Nagar, Pozhichalur, Chennai - 600074.</p>
                     </div>
                   </div>
                 </div>

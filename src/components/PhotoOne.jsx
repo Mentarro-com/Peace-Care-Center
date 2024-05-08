@@ -1,9 +1,13 @@
 import React from "react";
+import pic1 from "./images/disabled-man-wheelchair-working-his-office-job.jpg";
+import pic2 from"./images/full-shot-adults-community-meeting.jpg";
+import pic3 from "./images/group-people-encouraging-each-other.jpg"
+import pic4 from "./images/man-with-addiction-sharing-mental-health-issues-with-group-aa-meeting-talking-therapist-people-having-conversation-about-depression-rehabilitation-therapy-session.jpg";
 
 const PhotoOne = () => {
   return (
     <div>
-      <div className="bg-white dark:bg-gray-800  h-full py-6 sm:py-8 lg:py-12">
+      <div className="bg-white dark:bg-slate-900  h-full py-6 sm:py-8 lg:py-12">
         <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
           <div className="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12">
             <div className="flex items-center gap-12">
@@ -31,7 +35,7 @@ const PhotoOne = () => {
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
             >
               <img
-                src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=600"
+                src={pic1}
                 loading="lazy"
                 alt=" Minh Pham"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -49,10 +53,10 @@ const PhotoOne = () => {
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
             >
               <img
-                src="https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=1000"
+                src={pic2}
                 loading="lazy"
                 alt="Magicle"
-                className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+                className="absolute inset-0 h--1/2 w-full object-cover object-center transition duration-200 group-hover:scale-110"
               />
 
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
@@ -67,7 +71,7 @@ const PhotoOne = () => {
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
             >
               <img
-                src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=1000"
+                src={pic3}
                 loading="lazy"
                 alt=" Martin Sanchez"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -85,7 +89,7 @@ const PhotoOne = () => {
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
             >
               <img
-                src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600"
+                src={pic4}
                 loading="lazy"
                 alt=" Lorenzo Herrera"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"

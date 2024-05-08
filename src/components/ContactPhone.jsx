@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { animated, useSpring } from "react-spring";
-
+import instapic from "./images/insta-pic.jpg";
 function ContactPhone() {
 
     const [isVisible, setIsVisible] = useState(false);
@@ -44,7 +44,7 @@ function ContactPhone() {
                 <div
                   className="relative flex justify-center h-[440px] w-[230px] border-4 border-black rounded-2xl shadow-lg p-8"
                   style={{
-                    backgroundImage: "url(./logo.png)",
+                    backgroundImage: `url(${instapic})`,
                     backgroundSize: "contain",
                     backgroundPosition: "center",
                   }}

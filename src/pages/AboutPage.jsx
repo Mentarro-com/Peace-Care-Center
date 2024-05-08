@@ -1,18 +1,24 @@
-import React from 'react'
-import Testimonial from '../components/Testimonial'
-import AboutStep from '../components/AboutStep'
-import Aboutfirst from '../components/Aboutfirst'
-import Marquee from '../components/AboutMarquee'
+import React from "react";
+import Testimonial from "../components/Testimonial";
+import AboutStep from "../components/AboutStep";
+import Aboutfirst from "../components/Aboutfirst";
+import Marquee from "../components/AboutMarquee";
+import { motion } from "framer-motion";
 
 const AboutPage = () => {
   return (
-    <div className='text-black' >
+    <motion.div
+      initial={{ width: 0 }}
+      animate={{ width: "100%" }}
+      exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
+      className="text-black"
+    >
       <Aboutfirst />
       <AboutStep />
       <Testimonial />
       <Marquee />
-    </div>
-  )
-}
+    </motion.div>
+  );
+};
 
-export default AboutPage
+export default AboutPage;

@@ -26,7 +26,7 @@ const ScrollUpButton = () => {
 
   return (
     <div
-      className={`fixed bottom-[20vh] right-12 bg-gray-800 text-white w-10 h-10 flex z-50 justify-center items-center rounded-full cursor-pointer transition-opacity duration-300 ${
+      className={`fixed bottom-[20vh] right-11 bg-gray-800 text-white w-10 h-10 flex z-50 justify-center items-center rounded-full cursor-pointer transition-opacity duration-300 ${
         isVisible ? "opacity-100" : "opacity-0"
       }`}
       onClick={scrollToTop}

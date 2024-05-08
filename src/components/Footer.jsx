@@ -84,7 +84,7 @@
 //     ></iframe>
 //   </div>
 // </div>
-          
+
 //         </div>
 //         <hr className="mt-[30px] text-white" />
 //         <div className="flex items-center justify-center pb-8 pt-[9px] md:py-8">
@@ -99,38 +99,65 @@
 
 // export default Footer;
 
-
-import React from 'react';
-import { FiPhone, FiMail } from 'react-icons/fi';
-import { FaAddressBook, FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa';
+import React from "react";
+import { FiPhone, FiMail } from "react-icons/fi";
+import {
+  FaAddressBook,
+  FaFacebook,
+  FaInstagram,
+  FaWhatsapp,
+} from "react-icons/fa";
 
 function Footer() {
   return (
-    <div className="mt-8 bg-gray-900 pt-9">
+    <div className=" bg-gray-900 pt-9">
       <div className="mx-auto w-full max-w-[1166px] px-4 xl:px-0">
         <div className="flex flex-col justify-between sm:px-[18px] md:flex-row md:px-10">
-          <div className="md:w-[316px]">
+          <div className="md:w-[316px] ">
             <h1 className="text-white font-extrabold text-[18px]">
-              <span className="text-rose-600">YOUR</span>LOGO
+              <span className="text-rose-600">Y</span>L
             </h1>
             <p className="mt-[18px] text-[15px] font-normal text-white/[80%]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, fugit non. Incidunt dolorum adipisci, tempore asperiores nemo odio facere officiis enim animi placeat eaque nesciunt alias beatae id, at dicta.
+              Go Green Care Centre in Chennai is one of the leading businesses
+              in the Rehabilitation Centre For Alcohol. Also known for
+              Rehabilitation Centre For Alcohol, Rehabilitation Centre For Drug
+              Addiction and much more Go Green Care Centre, Chennai.
             </p>
             <div className="mt-[18px] flex gap-4 text-white">
-              <a href="#" target="_blank" className="hover:scale-110 hover:text-green-800">
-                <FiPhone className='text-[30px]'/>
+              <a
+                href="#"
+                target="_blank"
+                className="hover:scale-110 hover:text-green-800"
+              >
+                <FiPhone className="text-[30px]" />
               </a>
-              <a href="#" target="_blank" className="hover:scale-110 hover:text-pink-800">
-                <FaInstagram  className='text-[30px]'/>
+              <a
+                href="#"
+                target="_blank"
+                className="hover:scale-110 hover:text-pink-800"
+              >
+                <FaInstagram className="text-[30px]" />
               </a>
-              <a href="#" target="_blank" className="hover:scale-110 hover:text-blue-800">
-                <FaFacebook  className='text-[30px]'/>
+              <a
+                href="#"
+                target="_blank"
+                className="hover:scale-110 hover:text-blue-800"
+              >
+                <FaFacebook className="text-[30px]" />
               </a>
-              <a href="#" target="_blank" className="hover:scale-110 hover:text-green-800">
-                <FaWhatsapp  className='text-[30px]'/>
+              <a
+                href="#"
+                target="_blank"
+                className="hover:scale-110 hover:text-green-800"
+              >
+                <FaWhatsapp className="text-[30px]" />
               </a>
-              <a href="#" target="_blank" className="hover:scale-110 hover:text-red-800">
-                <FiMail  className='text-[30px]'/>
+              <a
+                href="#"
+                target="_blank"
+                className="hover:scale-110 hover:text-red-800"
+              >
+                <FiMail className="text-[30px]" />
               </a>
             </div>
           </div>
@@ -140,7 +167,12 @@ function Footer() {
                 <FiPhone />
               </div>
               <div className="ml-[18px]">
-                <a href="tel:+911800123444" className="font-Inter text-[16px] font-medium text-white">+91 1800123444</a>
+                <a
+                  href="tel:+919677095098"
+                  className="font-Inter text-[16px] font-medium text-white"
+                >
+                  +91 96770 95098
+                </a>
               </div>
             </div>
             <div className="mt-[23px] flex">
@@ -148,31 +180,83 @@ function Footer() {
                 <FiMail />
               </div>
               <div className="ml-[18px]">
-                <a href="mailto:help@lorem.com" className="font-Inter text-[16px] font-medium text-white">help@lorem.com</a>
+                <a
+                  href="mailto:help@lorem.com"
+                  className="font-Inter text-[16px] font-medium text-white"
+                >
+                  gogreencare2020@gmail.com
+                </a>
               </div>
             </div>
             <div className="mt-[23px] flex">
-              <div className="flex h-[28px] w-[38px] items-center justify-center rounded-[75%] text-white text-[22px] hover:text-blue-600">
+              <div className="flex h-[28px] w-[74px] items-center justify-center rounded-[75%] text-white text-[22px] hover:text-blue-600">
                 <FaAddressBook />
               </div>
               <div className="ml-[18px]">
-                <a href="mailto:help@lorem.com" className="font-Inter text-[16px] font-medium text-white">Sub Nerul, Mumbia, India, 123456</a>
+                <a
+                  href="mailto:help@lorem.com"
+                  className="font-Inter text-[16px] font-medium text-white"
+                >
+                  No:15/179, Rajaji Street, Moovar Nagar, Pozhichalur, Chennai -
+                  600074.
+                </a>
               </div>
             </div>
           </div>
           <div class="mt-6 flex w-full flex-col justify-between text-white sm:flex-row md:mt-0 md:max-w-[341px] mt-20">
             <div class="">
-              <p class="text-deutziawhite font-inter text-[18px] font-medium leading-normal">Pages</p>
-              <ul className="mt-2 sm:mt-3"> {/* Adjusted margin for small screens */}
-                <li class="lg:mt-[9px]"><a class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold" href="/">Home</a></li>
-                <li class="lg:mt-[9px]"><a class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold" href="/our-tutors">About</a></li>
-                <li class="lg:mt-[9px]"><a class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold" href="/become-a-tutor">Services</a></li>
-                <li class="lg:mt-[9px] "><a class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold" href="/plans-and-pricing">Gallery</a></li>
-                <li class="lg:mt-[9px] "><a class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold" href="/terms-and-conditions">Contact Us</a></li>
+              <p class="text-deutziawhite font-inter text-[18px] font-medium leading-normal">
+                Pages
+              </p>
+              <ul className="mt-2 sm:mt-3">
+                {" "}
+                {/* Adjusted margin for small screens */}
+                <li class="lg:mt-[9px]">
+                  <a
+                    class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                    href="/"
+                  >
+                    Home
+                  </a>
+                </li>
+                <li class="lg:mt-[9px]">
+                  <a
+                    class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                    href="/AboutPage"
+                  >
+                    About
+                  </a>
+                </li>
+                <li class="lg:mt-[9px]">
+                  <a
+                    class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                    href="/ServicePage"
+                  >
+                    Services
+                  </a>
+                </li>
+                <li class="lg:mt-[9px] ">
+                  <a
+                    class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                    href="/GalleryPage"
+                  >
+                    Gallery
+                  </a>
+                </li>
+                <li class="lg:mt-[9px] ">
+                  <a
+                    class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                    href="/ContactPage"
+                  >
+                    Contact Us
+                  </a>
+                </li>
               </ul>
             </div>
             <div className="mt-6 flex flex-col gap-4 sm:mt-0 ml-[40px]">
-              <p className="text-deutziawhite font-inter text-[18px] text-white font-medium">Our Location</p>
+              <p className="text-deutziawhite font-inter text-[18px] text-white font-medium">
+                Our Location
+              </p>
               <div className="relative h-[200px] w-[200px]">
                 <iframe
                   className="absolute inset-0 w-full h-full"
@@ -188,7 +272,8 @@ function Footer() {
         <hr className="mt-[30px] text-white" />
         <div className="flex items-center justify-center pb-8 pt-[9px] md:py-8">
           <p className="text-[10px] font-normal text-white md:text-[12px]">
-            © Copyright 2024, All Rights Reserved by YOUR WEBSITES. PVT. LTD<br />
+            © Copyright 2024, All Rights Reserved by YOUR WEBSITES. PVT. LTD
+            <br />
           </p>
         </div>
       </div>

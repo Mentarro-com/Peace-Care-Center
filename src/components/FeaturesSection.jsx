@@ -1,23 +1,57 @@
-import { React, useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useSpring, animated } from "react-spring";
 
 const FeaturesSection = () => {
   const [isVisible, setIsVisible] = useState(false);
 
+  // Define target positions for different screen sizes
+  const targetPositions = {
+    //CHANGE IT BASED ON THE POSITIONING OF THE CARD
+    sm: 0,
+    md: 0,
+    lg: 0,
+    xl: 0,
+    df: 0, // default
+  };
+
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       const windowHeight = window.innerHeight;
-      const targetPositionFirst = windowHeight * 2.9; // --ADJUST BASED ON SCREEN SIZE
-      setIsVisible(scrollPosition > targetPositionFirst);
+      const screenSize = getWindowSize(window.innerWidth);
+      const targetPosition = windowHeight * targetPositions[screenSize];
+      setIsVisible(scrollPosition > targetPosition);
     };
+
+    const handleResize = () => {
+      handleScroll();
+    };
+
+    const getWindowSize = (width) => {
+      if (width >= 1280) {
+        return "xl";
+      } else if (width >= 1024) {
+        return "lg";
+      } else if (width >= 768) {
+        return "md";
+      } else if (width >= 640) {
+        return "sm";
+      } else {
+        return "df";
+      }
+    };
+
+    handleScroll(); // Initialize visibility on component mount
 
     window.addEventListener("scroll", handleScroll);
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup event listeners on component unmount
     return () => {
       window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
-
   const springProps = useSpring({
     opacity: isVisible ? 1 : 0,
     transform: isVisible ? "translateY(20px)" : "translateY(5px)",
