@@ -5,6 +5,7 @@ import WhatsApp from "./components/Whatsapp.jsx";
 import Footer from "./components/Footer.jsx";
 import Scrollup from "./components/scrollup.jsx";
 import AnimatedRoutes from "./Animatedroutes.jsx";
+import Phone from "./components/Phone.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <AnimatedRoutes />
 
       <WhatsApp />
+      <Phone />
       <Scrollup />
       <Footer />
     </Router>

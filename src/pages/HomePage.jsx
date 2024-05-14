@@ -4,7 +4,7 @@ import HomeService from "../components/HomeService";
 import CircleSlider from "../components/CircleSlider";
 import ImageSlider from "../components/ImageSlider";
 import { motion } from "framer-motion";
-import { RxOpacity } from "react-icons/rx";
+
 
 const HomePage = () => {
   return (

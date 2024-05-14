@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { CSSTransition } from "react-transition-group";
 import FancyCarousel from "react-fancy-circular-carousel";
 import "react-fancy-circular-carousel/FancyCarousel.css";
-import logo from "./logo.png"; // Import your logo image
+import logo from "./logo.png";
 import img1 from "./images/service1.jpg";
 import img2 from "./images/service1.jpg";
 import img3 from "./images/service6.jpg";
@@ -23,7 +23,7 @@ const Info1 = ({ text, isMobile }) => {
   return (
     <div
       className={`bg-red-500 p-4 rounded-lg  ${
-        isMobile ? "bg-navy text-white" : ""
+        isMobile ? "bg-orange-700 text-white" : ""
       }`}
       style={{
         ...boxSize,
@@ -172,7 +172,7 @@ const CardSlider = () => {
   ];
 
   return (
-    <div className="relative overflow-hidden h-screen w-7/5 flex justify-center items-center mt-20">
+    <div className="relative overflow-hidden h-screen bg-red-200 w-7/5 flex justify-center items-center mt-20">
       {!isMobile && (
         <div className="absolute ml-[90px] top-1/2 left-1/4 transform -translate-x-1/2 -translate-y-1/2">
           <FancyCarousel

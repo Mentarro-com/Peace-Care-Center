@@ -3,6 +3,7 @@ import PhotoOne from "../components/PhotoOne";
 import PhotoTwo from "../components/PhotoTwo";
 import Banner from "../components/Banner";
 import { motion } from "framer-motion";
+import PhotoThree from "../components/PhotoThree";
 
 const GalleryPage = () => {
   return (
@@ -14,6 +15,7 @@ const GalleryPage = () => {
       <Banner />
       <PhotoOne />
       <PhotoTwo />
+      <PhotoThree />
     </motion.div>
   );
 };
