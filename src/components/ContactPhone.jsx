@@ -36,8 +36,8 @@ function ContactPhone() {
     };
   }, []);
   return (
-    <div className="flex justify-center mr-12">
-        <div className="sm:flex items-center max-w-screen-xl ml-[20%]">
+    <div className="flex mb-28 mt-[-100px] ">
+        <div className="sm:flex  items-center max-w-screen-xl lg:ml-[20%]">
           <animated.div style={phone}>
             <div className="sm:w-1/2 p-10">
               <div className="image object-center text-center lg:ml-36">
@@ -58,8 +58,8 @@ function ContactPhone() {
           </animated.div>
 
           <animated.div style={second}>
-            <div className="sm:w-1/2 p-2">
-              <div className="text">
+            <div className="ml-10 p-2">
+              <div className="text mt-24 mb-[-100px]">
                 <span className="text-slate-700 text-xl border-b-2 border-pink-600 uppercase">
                   Contact Us 
                 </span>

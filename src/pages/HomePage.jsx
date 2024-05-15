@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 const HomePage = () => {
   return (
     <motion.div
-      className="bg-slate-900"
+      className="bg-slate-500"
       initial={{ width: 0 }}
       animate={{ width: "100%" }}
       exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
