@@ -22,8 +22,8 @@ const Info1 = ({ text, isMobile }) => {
 
   return (
     <div
-      className={`bg-red-500 p-4 rounded-lg  ${
-        isMobile ? "bg-orange-700 text-white" : ""
+      className={`p-4 rounded-lg  ${
+        isMobile ? "text-black" : ""
       }`}
       style={{
         ...boxSize,
@@ -172,7 +172,7 @@ const CardSlider = () => {
   ];
 
   return (
-    <div className="relative overflow-hidden h-screen bg-red-200 w-7/5 flex justify-center items-center mt-20">
+    <div className="relative overflow-hidden h-screen  w-7/5 flex justify-center items-center mt-20">
       {!isMobile && (
         <div className="absolute ml-[90px] top-1/2 left-1/4 transform -translate-x-1/2 -translate-y-1/2">
           <FancyCarousel

@@ -3,18 +3,24 @@ import pic1 from './images/high-angle-arrangement-medical-objects-green-backgrou
 
 function HomeBg() {
   return (
-    <div className="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen text-white overflow-hidden">
-  <div className="absolute inset-0">
-    <img src={pic1} />
-    <div className="absolute inset-0 bg-black opacity-50"></div>
-  </div>
-  
-  <div className="relative z-10 flex flex-col justify-center items-center h-full text-center">
-    <h1 className="text-5xl text-green-300 font-bold leading-tight mb-4">Welcome to Peace Care Centre</h1>
-    <p className="text-lg text-gray-300 mb-8">Discover amazing features and services that await you.</p>
-    <a href="#" className="bg-yellow-400 text-gray-900 hover:bg-yellow-300 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Get Started</a>
-  </div>
-</div>
+  <section className="container mx-auto px-0  md:px-0">
+    <section className="relative px-10 md:p-0 transform duration-500 hover:shadow-2xl cursor-pointer hover:-translate-y-1 ">
+        <img className="xl:max-w-6xl" src="https://images.pexels.com/photos/5990153/pexels-photo-5990153.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1860" alt="" />
+        <div className="content bg-white p-2 pt-8 md:p-12 pb-12 lg:max-w-lg w-full lg:absolute top-48 right-5">
+            <div className="flex justify-between font-bold text-sm">
+                <p>Product Review</p>
+                <p className="text-gray-400">17th March, 2021</p>
+            </div>
+            <h2 className="text-3xl font-semibold mt-4 md:mt-10">Coffee From Heaven</h2>
+            <p className="my-3 text-justify font-medium text-gray-700 leading-relaxed">Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Autem aperiam nulla cupiditate saepe sed quis veritatis minus rem adipisci
+                aliquid.</p>
+            <button className="mt-2 md:mt-5 p-3 px-5 bg-black text-white font-bold text-sm hover:bg-purple-800">Read
+          More</button>
+        </div>
+    </section>
+</section>
+
   )
 }
 

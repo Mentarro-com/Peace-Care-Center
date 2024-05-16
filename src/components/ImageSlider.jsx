@@ -51,9 +51,9 @@ const ImageSlider = () => {
   }, [currentIndex, nextSlide]);
 
   return (
-    <div className="max-w-[1400px] h-[580px] w-full m-auto py-16 px-4 relative group">
+    <div className="max-w-[1800px] h-[600px] w-full m-auto relative group">
       <div
-        className="w-[100%] h-[120%] rounded-2xl bg-center bg-cover duration-500"
+        className="w-[100%] h-[120%]  bg-center bg-cover duration-500"
         style={{ backgroundImage: `url(${slides[currentIndex]?.url})` }}
       ></div>
       {/* Left Arrow */}
@@ -65,7 +65,7 @@ const ImageSlider = () => {
         <BsChevronCompactRight onClick={nextSlide} size={30} />
       </div>
 
-      <div className="flex top-4 justify-center py-2">
+      {/* <div className="flex top-4 justify-center m-[-40px]">
         {slides.map((slide, slideIndex) => (
           <div
             className="text-2xl cursor-pointer"
@@ -75,7 +75,7 @@ const ImageSlider = () => {
             <RxDotFilled />
           </div>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };
