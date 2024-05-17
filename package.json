@@ -27,6 +27,7 @@
     "react-konva": "^16.8.0",
     "react-loader-spinner": "^6.1.6",
     "react-native": ">=0.58",
+    "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.23.0",
     "react-scripts": "5.0.1",
     "react-spring": "^9.7.3",

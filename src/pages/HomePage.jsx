@@ -6,6 +6,8 @@ import ImageSlider from "../components/ImageSlider";
 import { motion } from "framer-motion";
 import Hero from "../components/Hero";
 import Hero2 from "../components/Heros";
+import Sap from "../components/Sap";
+
 
 
 const HomePage = () => {
@@ -18,11 +20,13 @@ const HomePage = () => {
     >
       <HomeBg />
       <Hero2 />
-      
+      <Sap />
       
       <ImageSlider />
       
       <CircleSlider />
+
+      
 
       <Hero />
       <HomeService />
