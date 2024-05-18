@@ -55,46 +55,52 @@
 
 // export default NavBar
 
-
-import React, { useState } from "react"
-import "./navbar.css"
-import { Link } from "react-router-dom"
-import { FaBars } from "react-icons/fa"
-import { ImCross } from "react-icons/im"
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import { FaBars } from "react-icons/fa";
+import { ImCross } from "react-icons/im";
 
 const Navbar = () => {
-  const [Mobile, setMobile] = useState(false)
+  const [mobile, setMobile] = useState(false);
+
   return (
     <>
-      <nav className='navbar flex justify-between items-center'>
-  <h3 className='logo '>PEACE CARE CENTER</h3>
-  <button className='mobile-menu-icon' onClick={() => setMobile(!Mobile)}>
-    {Mobile ? <ImCross className="text-[12px]" /> : <FaBars className="text-xl" />}
-  </button>
-  {/*
-  if large screen ma xa bhane Mobile add huxa
-  if mobile screen ma xa bhane nav-links-mobile add huxa
-  */}
-  <ul className={Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}>
-    <Link to='/' className='home '>
-      <li>HOME</li>
-    </Link>
-    <Link to='/AboutPage' className='about'>
-      <li>ABOUT US</li>
-    </Link>
-    <Link to='/ServicePage' className='services'>
-      <li>SERVICES</li>
-    </Link>
-    <Link to='/GalleryPage' className='skills'>
-      <li>GALLERY</li>
-    </Link>
-    <Link to='/ContactPage' className='home'>
-      <li>CONTACT US</li>
-    </Link>
-  </ul>
-</nav>
-
+      <nav className="flex justify-between items-center h-16 shadow-lg z-50 px-6">
+        <h3 className="text-2xl font-bold">PEACE CARE CENTER</h3>
+        <button
+          className="block md:hidden text-xl"
+          onClick={() => setMobile(!mobile)}
+          aria-label="Toggle menu"
+        >
+          {mobile ? <ImCross className="text-sm" /> : <FaBars className="text-2xl" />}
+        </button>
+        <ul
+          className={`${
+            mobile ? "block" : "hidden"
+          } absolute md:static bg-white md:bg-transparent md:flex md:items-center top-16 left-0 w-full md:w-auto transition-all duration-500 ease-in-out`}
+          onClick={() => setMobile(false)}
+        >
+          <Link to="/" className="block md:inline-block px-4 py-2 md:px-2 lg:px-4 text-gray-900 hover:text-green-500 hover:underline transform transition duration-300">
+            <li className="p-3 text-center">HOME</li>
+          </Link>
+          <Link to="/AboutPage" className="block md:inline-block px-4 py-2 md:px-2 lg:px-4 text-gray-900 hover:text-green-500 hover:underline transform transition duration-300">
+            <li className="p-3 text-center">ABOUT US</li>
+          </Link>
+          <Link to="/ServicePage" className="block md:inline-block px-4 py-2 md:px-2 lg:px-4 text-gray-900 hover:text-green-500 hover:underline transform transition duration-300">
+            <li className="p-3 text-center">SERVICES</li>
+          </Link>
+          <Link to="/GalleryPage" className="block md:inline-block px-4 py-2 md:px-2 lg:px-4 text-gray-900 hover:text-green-500 hover:underline transform transition duration-300">
+            <li className="p-3 text-center">GALLERY</li>
+          </Link>
+          <Link to="/ContactPage" className="block md:inline-block px-4 py-2 md:px-2 lg:px-4 text-gray-900 hover:text-green-500 hover:underline transform transition duration-300">
+            <li className="p-3 text-center">CONTACT US</li>
+          </Link>
+        </ul>
+      </nav>
     </>
-  )
-}
-export default Navbar
+  );
+};
+
+export default Navbar;
+
+
