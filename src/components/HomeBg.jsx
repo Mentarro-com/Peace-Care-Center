@@ -7,7 +7,7 @@ function HomeBg() {
 
   return (
     <div className="container mx-auto px-0 md:px-0">
-      {!modalOpen && ( // Render the button only if the modal is closed
+      {!modalOpen && ( 
         <button
           className="fixed bottom-21 right-5 p-3 bg-blue-500 text-white rounded-full shadow-lg z-50"
           onClick={toggleModal}

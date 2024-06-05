@@ -13,7 +13,7 @@ const GalleryPage = () => {
       exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
     >
       <Banner />
-      <PhotoOne />
+      {/* <PhotoOne /> */}
       <PhotoTwo />
       <PhotoThree />
     </motion.div>

@@ -8,7 +8,7 @@ const Images = (props) => {
   };
 
   return (
-    <div className='images-container'>
+    <div className='images-container p-2'>
       {data.map((slide, index) => (
         <div
           onClick={() => handleClickImage(index)}
