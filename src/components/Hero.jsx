@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div className="w-full pb-9 dark:bg-gray-800 " >
+    <div className="w-full pb-9 dark:bg-gray-800 lg:mt-0 sm:mt-[-560px]" >
 
     <div className="mx-auto max-w-7xl px-6 lg:px-8 pt-8">
         <div className="mx-auto max-w-2xl text-center">
