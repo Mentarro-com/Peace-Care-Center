@@ -59,7 +59,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import { ImCross } from "react-icons/im";
-import logo from "./images/PEACE_LOGO.png";
+import logo from "./images/LOGO.jpg";
 
 
 const Navbar = () => {
@@ -68,9 +68,9 @@ const Navbar = () => {
   return (
     <>
       <nav className="flex justify-between items-center h-16 shadow-lg z-50 px-6">
-        <h3 className="text-2xl font-bold">
-        <img src={logo} className="w-2"/>
-          PEACE LIFE CARE CENTER</h3>
+       
+        <img src={logo} className="w-28 h-14"/>
+         
         <button
           className="block md:hidden text-xl"
           onClick={() => setMobile(!mobile)}
