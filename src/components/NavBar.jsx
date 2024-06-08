@@ -81,7 +81,7 @@ const Navbar = () => {
         <ul
           className={`${
             mobile ? "block" : "hidden"
-          } absolute md:static bg-white md:bg-transparent md:flex md:items-center top-16 left-0 w-full md:w-auto transition-all duration-500 ease-in-out`}
+          } absolute md:static bg-white md:bg-transparent md:flex md:items-center top-16 left-0 w-full md:w-auto transition-all duration-500 ease-in-out z-50`}
           onClick={() => setMobile(false)}
         >
           <Link to="/" className="block md:inline-block px-4 py-2 md:px-2 lg:px-4 text-gray-900 hover:text-green-500 hover:underline transform transition duration-300">

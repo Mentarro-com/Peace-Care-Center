@@ -203,49 +203,49 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div class="mt-6 flex w-full flex-col justify-between text-white sm:flex-row md:mt-0 md:max-w-[341px] mt-20">
-            <div class="">
-              <p class="text-deutziawhite font-inter text-[18px] font-medium leading-normal">
+          <div className="mt-6 flex w-full flex-col justify-between text-white sm:flex-row md:mt-0 md:max-w-[341px] mt-20">
+            <div className="">
+              <p className="text-deutziawhite font-inter text-[18px] font-medium leading-normal">
                 Pages
               </p>
               <ul className="mt-2 sm:mt-3">
                 {" "}
                 {/* Adjusted margin for small screens */}
-                <li class="lg:mt-[9px]">
+                <li className="lg:mt-[9px]">
                   <a
-                    class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                    className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
                     href="/"
                   >
                     Home
                   </a>
                 </li>
-                <li class="lg:mt-[9px]">
+                <li className="lg:mt-[9px]">
                   <a
-                    class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                    className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
                     href="/AboutPage"
                   >
                     About
                   </a>
                 </li>
-                <li class="lg:mt-[9px]">
+                <li className="lg:mt-[9px]">
                   <a
-                    class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                    className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
                     href="/ServicePage"
                   >
                     Services
                   </a>
                 </li>
-                <li class="lg:mt-[9px] ">
+                <li className="lg:mt-[9px] ">
                   <a
-                    class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                    className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
                     href="/GalleryPage"
                   >
                     Gallery
                   </a>
                 </li>
-                <li class="lg:mt-[9px] ">
+                <li className="lg:mt-[9px] ">
                   <a
-                    class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                    className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
                     href="/ContactPage"
                   >
                     Contact Us
