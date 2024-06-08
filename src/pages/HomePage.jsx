@@ -18,17 +18,14 @@ const HomePage = () => {
       animate={{ width: "100%" }}
       exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
     >
-      <HomeBg />
+      {/* <HomeBg /> */}
       <Hero2 />
       <Sap />
+      <Hero />
       
-      <ImageSlider />
+      {/* <ImageSlider /> */}
       
       <CircleSlider />
-
-      
-
-      <Hero />
       <HomeService />
     </motion.div>
   );
