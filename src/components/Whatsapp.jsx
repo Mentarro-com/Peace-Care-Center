@@ -1,5 +1,5 @@
 import React from 'react';
-import picture from "./logo.png"
+import picture from "./images/pandian.jpg"
 
 import { FloatingWhatsApp } from 'react-floating-whatsapp';
  

@@ -9,7 +9,7 @@ const Images = (props) => {
 
   
   return (
-    <div className="flex flex-col md:grid md:grid-cols-3 gap-12 p-7 bg-slate-900">
+    <div className="flex flex-col md:grid md:grid-cols-3 gap-12 p-7 bg-slate-700">
       {data.map((slide, index) => (
         <div
           className="image group relative rounded overflow-hidden "
@@ -21,8 +21,8 @@ const Images = (props) => {
             alt={slide.description}
             className="w-full transition duration-200 group-hover:scale-110"
           />
-          <p className="cursor-pointer absolute inset-0 bg-black bg-opacity-40 flex items-end justify-center text-2xl  text-white font-roboto font-medium group-hover:bg-opacity-60 transition">
-            {slide.description}
+          <p className="cursor-pointer absolute inset-0 bg-black bg-opacity-25 flex items-end justify-center text-2xl  text-white font-roboto font-medium group-hover:bg-opacity-60 transition">
+            {slide.title}
           </p>
         </div>
       ))}

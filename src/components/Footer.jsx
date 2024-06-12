@@ -118,7 +118,7 @@ function Footer() {
               <span className="text-rose-600">Y</span>L
             </h1>
             <p className="mt-[18px] text-[15px] font-normal text-white/[80%]">
-              Go Green Care Centre in Chennai is one of the leading businesses
+              Peace Life Care Centre in Chennai is one of the leading businesses
               in the Rehabilitation Centre For Alcohol. Also known for
               Rehabilitation Centre For Alcohol, Rehabilitation Centre For Drug
               Addiction and much more Go Green Care Centre, Chennai.
@@ -153,7 +153,7 @@ function Footer() {
                 <FaWhatsapp className="text-[30px]" />
               </a>
               <a
-                href="#"
+                href="mailto:pandian121212@gmail.com"
                 target="_blank"
                 className="hover:scale-110 hover:text-red-800"
               >
@@ -168,10 +168,10 @@ function Footer() {
               </div>
               <div className="ml-[18px]">
                 <a
-                  href="tel:+919677095098"
+                  href="tel:+919789053645"
                   className="font-Inter text-[16px] font-medium text-white"
                 >
-                  +91 96770 95098
+                  +91 9789053645
                 </a>
               </div>
             </div>
@@ -184,7 +184,7 @@ function Footer() {
                   href="mailto:help@lorem.com"
                   className="font-Inter text-[16px] font-medium text-white"
                 >
-                  gogreencare2020@gmail.com
+                  pandian121212@gmail.com
                 </a>
               </div>
             </div>
@@ -197,8 +197,7 @@ function Footer() {
                   href="mailto:help@lorem.com"
                   className="font-Inter text-[16px] font-medium text-white"
                 >
-                  No:15/179, Rajaji Street, Moovar Nagar, Pozhichalur, Chennai -
-                  600074.
+                 No.3, 12th Street, Balaji Nagar, Anakaputhur, Chennai-600070.
                 </a>
               </div>
             </div>
@@ -263,7 +262,7 @@ function Footer() {
                   title="Google Maps"
                   loading="lazy"
                   allowFullScreen
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158865.1809596342!2d-74.06430727631845!3d40.73088828230451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2suk!4v1632263946499!5m2!1sen!2suk"
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3887.864004592304!2d80.12908827507655!3d12.9805488873357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDU4JzUwLjAiTiA4MMKwMDcnNTQuMCJF!5e0!3m2!1sen!2sin!4v1718204192531!5m2!1sen!2sin"
                 ></iframe>
               </div>
             </div>
