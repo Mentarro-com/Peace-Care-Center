@@ -90,13 +90,13 @@ function HowItWorksSection() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <p className="text-sm font-bold uppercase tracking-widest text-gray-700">
-            How It Works
+            Start Your Recovery Journey With
           </p>
           <h2 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
-            Launch your blog in 4 easy steps
+            Peace Life Care Rehabilitation Center
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg font-normal text-gray-700 lg:text-xl lg:leading-8">
-            Create your own blog with us and launch it with just 4 easy steps
+            In 4 Easy Steps
           </p>
         </div>
         <ul className="mx-auto mt-12 grid max-w-md grid-cols-1 gap-10 sm:mt-16 lg:mt-20 lg:max-w-5xl lg:grid-cols-4">
@@ -111,10 +111,12 @@ function HowItWorksSection() {
               </div>
               <div className="ml-6 lg:ml-0 lg:mt-10">
                 <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
-                  Add your databases
+                Assessment:
                 </h3>
                 <h4 className="mt-2 text-base text-gray-700">
-                  Use your own Notion databases or duplicate ours.
+                  Begin your journey with a thorough assessment to understand
+                  your unique needs and challenges. Our team will work with you
+                  to create a personalized treatment plan.
                 </h4>
               </div>
             </li>
@@ -131,10 +133,10 @@ function HowItWorksSection() {
               </div>
               <div className="ml-6 lg:ml-0 lg:mt-10">
                 <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
-                  Add your databases
+                Personalized Therapy:
                 </h3>
                 <h4 className="mt-2 text-base text-gray-700">
-                  Use your own Notion databases or duplicate ours.
+                Engage in personalized therapy sessions tailored to address the root causes of your addiction. Our experienced therapists will guide you through the process with empathy and care.
                 </h4>
               </div>
             </li>
@@ -151,10 +153,10 @@ function HowItWorksSection() {
               </div>
               <div className="ml-6 lg:ml-0 lg:mt-10">
                 <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
-                  Add your databases
+                Healing Programs:
                 </h3>
                 <h4 className="mt-2 text-base text-gray-700">
-                  Use your own Notion databases or duplicate ours.
+                Participate in holistic healing programs that include physical, mental, and emotional wellness activities. These programs are designed to support your overall well-being and recovery.
                 </h4>
               </div>
             </li>
@@ -171,10 +173,10 @@ function HowItWorksSection() {
               </div>
               <div className="ml-6 lg:ml-0 lg:mt-10">
                 <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
-                  Add your databases
+                Continued Support:
                 </h3>
                 <h4 className="mt-2 text-base text-gray-700">
-                  Use your own Notion databases or duplicate ours.
+                Receive ongoing support and aftercare to ensure long-term recovery. Our team is dedicated to helping you maintain a healthy, addiction-free life even after you leave our center.
                 </h4>
               </div>
             </li>

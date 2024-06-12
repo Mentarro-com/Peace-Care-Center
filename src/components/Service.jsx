@@ -197,7 +197,7 @@ function FeatureSection() {
               </svg>
             }
             title="Alcohol De-Addiction"
-            description="The AI product utilizes advanced NLP algorithms to understand and interpret human language, enabling it to accurately process and analyze text-based inputs."
+            description="Tailored programs for alcohol recovery, offering compassionate support and holistic interventions."
           />
         </div>
       </div>
@@ -225,7 +225,7 @@ function FeatureSection() {
               </svg>
             }
             title="Drug De-Addiction"
-            description="The product has built-in sentiment analysis capabilities, allowing it to determine the sentiment (positive, negative, or neutral) expressed in text or customer feedback."
+            description="Experience our innovative approach to drug rehabilitation, blending evidence-based treatments with holistic therapies for effective recovery."
           />
           <ImageContainer
             imageUrl="./images/service2.jpg"
@@ -261,7 +261,7 @@ function FeatureSection() {
               </svg>
             }
             title="Psychiatric Service"
-            description="The AI product can generate human-like written content, summaries, or reports based on structured data or analysis results."
+            description="Comprehensive psychiatric services offering personalized care and holistic approaches, empowering individuals on their journey towards mental wellness."
           />
         </div>
       </div>
@@ -289,7 +289,7 @@ function FeatureSection() {
               </svg>
             }
             title="Smoking De-Addiction"
-            description="The AI product utilizes advanced NLP algorithms to understand and interpret human language, enabling it to accurately process and analyze text-based inputs."
+            description="Specialized smoking cessation programs tailored to individual needs, providing support and strategies for a successful journey to a smoke-free life."
           />
           <ImageContainer
             imageUrl="./images/service4.webp"
@@ -325,7 +325,7 @@ function FeatureSection() {
               </svg>
             }
             title="Ayurveda, Naturopathy and Homeopathy"
-            description="The product has built-in sentiment analysis capabilities, allowing it to determine the sentiment (positive, negative, or neutral) expressed in text or customer feedback."
+            description="Explore the natural healing traditions of Ayurveda, Naturopathy, and Homeopathy, offering holistic wellness solutions tailored to your individual health needs."
           />
         </div>
       </div>
@@ -353,7 +353,7 @@ function FeatureSection() {
               </svg>
             }
             title="Yoga"
-            description="The AI product can generate human-like written content, summaries, or reports based on structured data or analysis results."
+            description="Embark on a transformative journey with yoga, fostering physical strength, mental clarity, and spiritual well-being through mindful movement and breath."
           />
           <ImageContainer
             imageUrl="./images/service6.jpg"
@@ -389,7 +389,7 @@ function FeatureSection() {
               </svg>
             }
             title="Medically Qualified Doctor Team"
-            description="The AI product utilizes advanced NLP algorithms to understand and interpret human language, enabling it to accurately process and analyze text-based inputs."
+            description="Experienced medical team offers personalized care and tailored treatment plans to address your unique health needs effectively."
           />
         </div>
       </div>
@@ -417,7 +417,7 @@ function FeatureSection() {
               </svg>
             }
             title="Lifestyle and Dietary Management"
-            description="The product has built-in sentiment analysis capabilities, allowing it to determine the sentiment (positive, negative, or neutral) expressed in text or customer feedback."
+            description="Guidance and support for achieving optimal health through personalized lifestyle adjustments and dietary strategies tailored to your individual needs."
           />
           <ImageContainer
             imageUrl="./images/service8.jpg"
@@ -453,7 +453,7 @@ function FeatureSection() {
               </svg>
             }
             title="Psychologist evaluation and support"
-            description="The AI product can generate human-like written content, summaries, or reports based on structured data or analysis results."
+            description="Professional evaluation and compassionate support from psychologists, aiding individuals in understanding and addressing their mental health concerns."
           />
         </div>
       </div>
@@ -481,7 +481,7 @@ function FeatureSection() {
               </svg>
             }
             title="Quality and Authenticity of Treatment"
-            description="The product has built-in sentiment analysis capabilities, allowing it to determine the sentiment (positive, negative, or neutral) expressed in text or customer feedback."
+            description="Ensuring the highest standards of treatment efficacy and authenticity, delivering trustworthy care aligned with your health and wellness goals."
           />
           <ImageContainer
             imageUrl="./images/service10.jpg"
