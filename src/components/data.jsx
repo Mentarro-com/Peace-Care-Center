@@ -16,10 +16,11 @@ import pic15 from './images/tvroom.jpg'
 import pic16 from './images/restroom.jpg'
 import pic17 from './images/fire.jpg'
 import pic18 from './images/CAM.png'
+
 export const slides = [
   {
     src: pic1,
-    description: 'Slide description One',
+    description: 'A Peace care life center helps individuals recover from addiction. The goal is to promote long-term recovery and improved quality of life.',
     title: 'REHAB BUILDING',
   },
   {

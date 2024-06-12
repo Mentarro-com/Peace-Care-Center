@@ -31,7 +31,6 @@ function PhotoThree() {
         plugins={[Captions, Download, Fullscreen, Zoom, Thumbnails]}
         captions={{
           showToggle: true,
-          descriptionTextAlign: 'end',
         }}
         
 
