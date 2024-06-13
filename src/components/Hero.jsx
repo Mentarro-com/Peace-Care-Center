@@ -1,19 +1,19 @@
 import React from 'react'
-
+import { motion } from 'framer-motion'
 function Hero() {
   return (
     <div className="w-full pb-9 dark:bg-gray-800 lg:mt-0 sm:mt-[-560px]" >
 
     <div className="mx-auto max-w-7xl px-6 lg:px-8 pt-8">
         <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">From The Blog</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">ADDICTION ENDS HERE</h2>
             <p className="mt-2 text-lg leading-8 text-gray-600 dark:text-gray-300">
-                Dive into the latest in technology with our insightful blog posts.
+            THE REAL JOURNEY BEGINS WHEN YOU ARRIVE
             </p>
         </div>
         <div
             className="mx-auto mt-8 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-12 lg:mx-0 lg:max-w-none lg:grid-cols-3 ">
-            
+            <motion.div whileHover={{ scale: 1.1 }}>
             <article
                 className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 dark:bg-gray-700 px-8 py-8 pb-8 pt-80 sm:pt-48 lg:pt-80">
                 <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw1fHxhaXxlbnwwfDB8fHwxNzEyNzUzMTQ4fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="" className="absolute inset-0 -z-10 h-full w-full object-cover" />
@@ -34,8 +34,8 @@ function Hero() {
                     <a href="/tech-blog/post1"><span className="absolute inset-0"></span>The Future of Artificial
                         Intelligence: Trends and Challenges</a>
                 </h3>
-            </article>
-          
+            </article></motion.div> 
+            <motion.div whileHover={{ scale: 1.1 }}>
             <article
                 className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 dark:bg-gray-700 px-8 py-8 pb-8 pt-80 sm:pt-48 lg:pt-80">
                 <img src="https://images.unsplash.com/photo-1639322537228-f710d846310a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw1fHxibG9jayUyMGNoYWlufGVufDB8MHx8fDE3MTI3NTMxNjd8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="" className="absolute inset-0 -z-10 h-full w-full object-cover" />
@@ -57,7 +57,8 @@ function Hero() {
                         A Comprehensive Guide</a>
                 </h3>
             </article>
-            
+            </motion.div> 
+            <motion.div whileHover={{ scale: 1.1 }}>
             <article
                 className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 dark:bg-gray-700 px-8 py-8 pb-8 pt-80 sm:pt-48 lg:pt-80">
                 <img src="https://images.unsplash.com/photo-1666112835156-c65bb806ac73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwxNXx8cXVhbnR1bSUyMGNvbXB1dGluZ3xlbnwwfDB8fHwxNzEyNzUzMTk2fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="" className="absolute inset-0 -z-10 h-full w-full object-cover" />
@@ -79,6 +80,7 @@ function Hero() {
                         Revolutionize Data Security</a>
                 </h3>
             </article>
+            </motion.div>
             
         </div>
     </div>

@@ -7,6 +7,7 @@ import Scrollup from "./components/scrollup.jsx";
 import AnimatedRoutes from "./Animatedroutes.jsx";
 import Phone from "./components/Phone.jsx";
 
+
 function App() {
   return (
     <Router>

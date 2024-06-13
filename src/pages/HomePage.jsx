@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import Hero from "../components/Hero";
 import Hero2 from "../components/Heros";
 import Sap from "../components/Sap";
+import VideoCarousel from "../components/HomeVideo";
 
 
 
@@ -19,13 +20,14 @@ const HomePage = () => {
       exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
     >
       {/* <HomeBg /> */}
+      <VideoCarousel />
       <Hero2 />
       <Sap />
       <Hero />
       
       {/* <ImageSlider /> */}
       
-      <CircleSlider />
+      {/*<CircleSlider />*/}
       <HomeService />
     </motion.div>
   );

@@ -53,9 +53,10 @@ function HomeService() {
                 Alcohol De Addiction
               </h3>
               <p className="text-sm">
-                Our platform leverages user data and behavior to provide a
-                highly personalized experience, with dynamic content and product
-                recommendations that change in real-time.
+                Comprehensive care includes medically supervised detox,
+                personalized therapy, and support groups like AA. Emphasis on
+                holistic recovery with educational programs and family
+                involvement to support long-term sobriety.
               </p>
             </div>
           </div>
@@ -67,9 +68,10 @@ function HomeService() {
               </h3>
               <p className="text-sm">
                 {" "}
-                Our website is designed with a mobile-first approach, offering a
-                seamless browsing experience across all devices, including
-                smartphones and tablets.
+                Tailored programs include safe detox, behavioral therapies like
+                CBT and DBT, and support groups such as NA. Life skills training
+                and contingency management help build a foundation for a
+                drug-free life.
               </p>
             </div>
           </div>
@@ -80,23 +82,22 @@ function HomeService() {
                 24/7 Customer Support
               </h3>
               <p className="text-sm">
-                ur U.S.-based customer support team is available around the
-                clock to answer any questions, resolve any issues, and provide
-                helpful solutions. Whether it's through email, phone, or live
-                chat, we're always here to support you.
+                A dedicated helpline offers round-the-clock assistance for
+                inquiries, emergencies, and admissions. Trained staff ensure
+                immediate, compassionate support, guiding patients and families
+                through the recovery process.
               </p>
             </div>
           </div>
 
           <div className="w-full sm:w-1/2 mb-4 px-2 ">
             <div className="h-full py-4 px-6 border border-green-500 rounded-xl transition-transform duration-300 transform hover:scale-105">
-              <h3 className="text-2xl font-bold text-md mb-6">
-                Privacy
-              </h3>
+              <h3 className="text-2xl font-bold text-md mb-6">Privacy</h3>
               <p className="text-sm">
-                We use cutting-edge security measures to protect our customers'
-                sensitive information and ensure the safety of all transactions
-                made on our site.
+                Strict confidentiality policies protect patient information,
+                with secure record management and private therapy sessions.
+                Staff receive regular training to uphold privacy standards,
+                ensuring a safe, confidential environment.
               </p>
             </div>
           </div>
