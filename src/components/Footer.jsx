@@ -103,7 +103,6 @@ import React from "react";
 import { FiPhone, FiMail } from "react-icons/fi";
 import {
   FaAddressBook,
-  FaFacebook,
   FaInstagram,
   FaWhatsapp,
 } from "react-icons/fa";
@@ -125,7 +124,7 @@ function Footer() {
             </p>
             <div className="mt-[18px] flex gap-4 text-white">
               <a
-                href="#"
+                href="tel:+919789053645"
                 target="_blank"
                 className="hover:scale-110 hover:text-green-800"
               >
@@ -138,13 +137,7 @@ function Footer() {
               >
                 <FaInstagram className="text-[30px]" />
               </a>
-              <a
-                href="#"
-                target="_blank"
-                className="hover:scale-110 hover:text-blue-800"
-              >
-                <FaFacebook className="text-[30px]" />
-              </a>
+              
               <a
                 href="#"
                 target="_blank"
@@ -181,7 +174,7 @@ function Footer() {
               </div>
               <div className="ml-[18px]">
                 <a
-                  href="mailto:help@lorem.com"
+                  href="mailto:pandian121212@gmail.com"
                   className="font-Inter text-[16px] font-medium text-white"
                 >
                   pandian121212@gmail.com
@@ -194,7 +187,7 @@ function Footer() {
               </div>
               <div className="ml-[18px]">
                 <a
-                  href="mailto:help@lorem.com"
+                  href="mailto:pandian121212@gmail.com"
                   className="font-Inter text-[16px] font-medium text-white"
                 >
                  No.3, 12th Street, Balaji Nagar, Anakaputhur, Chennai-600070.
@@ -202,7 +195,7 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className="mt-6 flex w-full flex-col justify-between text-white sm:flex-row md:mt-0 md:max-w-[341px] mt-20">
+          <div className="flex w-full flex-col justify-between text-white sm:flex-row md:mt-0 md:max-w-[341px] mt-20">
             <div className="">
               <p className="text-deutziawhite font-inter text-[18px] font-medium leading-normal">
                 Pages
@@ -262,7 +255,7 @@ function Footer() {
                   title="Google Maps"
                   loading="lazy"
                   allowFullScreen
-                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3887.864004592304!2d80.12908827507655!3d12.9805488873357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDU4JzUwLjAiTiA4MMKwMDcnNTQuMCJF!5e0!3m2!1sen!2sin!4v1718204192531!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.8717841750426!2d80.1275065117444!3d12.980051511049496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525f9ac9a74fe9%3A0xe56cb1f80ea3e01c!2sPeace%20LIfe%20Care%20Centre!5e0!3m2!1sen!2sin!4v1718463332648!5m2!1sen!2sin"
                 ></iframe>
               </div>
             </div>

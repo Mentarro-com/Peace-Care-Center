@@ -33,7 +33,6 @@ function PhotoThree() {
           showToggle: true,
         }}
         
-
         index={index}
         open={index >= 0}
         close={() => setIndex(-1)}

@@ -27,7 +27,7 @@ const HomePage = () => {
       
       {/* <ImageSlider /> */}
       
-      {/*<CircleSlider />*/}
+      <CircleSlider />
       <HomeService />
     </motion.div>
   );

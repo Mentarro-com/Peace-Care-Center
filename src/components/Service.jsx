@@ -5,7 +5,7 @@ import { animated, useSpring } from "react-spring";
 import Banner from "./Banner.jsx"
 
 
-function FeatureCard({ icon, title, description }) {
+function FeatureCard({ icon, title, description,link_url}) {
   return (
     
     <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 ">
@@ -23,7 +23,7 @@ function FeatureCard({ icon, title, description }) {
           <div className="mt-6">
             <a
               className="mb -8 inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
-              href="/login"
+              href={link_url} 
             >
               Learn More
             </a>
@@ -198,6 +198,7 @@ function FeatureSection() {
             }
             title="Alcohol De-Addiction"
             description="Tailored programs for alcohol recovery, offering compassionate support and holistic interventions."
+            link_url="https://en.wikipedia.org/wiki/Alcoholism"
           />
         </div>
       </div>
@@ -226,6 +227,7 @@ function FeatureSection() {
             }
             title="Drug De-Addiction"
             description="Experience our innovative approach to drug rehabilitation, blending evidence-based treatments with holistic therapies for effective recovery."
+            link_url="https://simple.wikipedia.org/wiki/Drug_addiction"
           />
           <ImageContainer
             imageUrl="./images/service2.jpg"
@@ -262,6 +264,7 @@ function FeatureSection() {
             }
             title="Psychiatric Service"
             description="Comprehensive psychiatric services offering personalized care and holistic approaches, empowering individuals on their journey towards mental wellness."
+            link_url="https://en.wikipedia.org/wiki/Psychiatry"
           />
         </div>
       </div>
@@ -290,6 +293,7 @@ function FeatureSection() {
             }
             title="Smoking De-Addiction"
             description="Specialized smoking cessation programs tailored to individual needs, providing support and strategies for a successful journey to a smoke-free life."
+            link_url="https://en.wikipedia.org/wiki/Smoking_cessation"
           />
           <ImageContainer
             imageUrl="./images/service4.webp"
@@ -326,6 +330,7 @@ function FeatureSection() {
             }
             title="Ayurveda, Naturopathy and Homeopathy"
             description="Explore the natural healing traditions of Ayurveda, Naturopathy, and Homeopathy, offering holistic wellness solutions tailored to your individual health needs."
+            link_url="https://en.wikipedia.org/wiki/Naturopathy"
           />
         </div>
       </div>
@@ -354,7 +359,8 @@ function FeatureSection() {
             }
             title="Yoga"
             description="Embark on a transformative journey with yoga, fostering physical strength, mental clarity, and spiritual well-being through mindful movement and breath."
-          />
+            link_url="https://en.wikipedia.org/wiki/Yoga"
+         />
           <ImageContainer
             imageUrl="./images/service6.jpg"
             imageAlt="Natural Language Generation (NLG)"
@@ -418,6 +424,7 @@ function FeatureSection() {
             }
             title="Lifestyle and Dietary Management"
             description="Guidance and support for achieving optimal health through personalized lifestyle adjustments and dietary strategies tailored to your individual needs."
+            link_url="https://en.wikipedia.org/wiki/Dietary_management"         
           />
           <ImageContainer
             imageUrl="./images/service8.jpg"
@@ -454,6 +461,7 @@ function FeatureSection() {
             }
             title="Psychologist evaluation and support"
             description="Professional evaluation and compassionate support from psychologists, aiding individuals in understanding and addressing their mental health concerns."
+            link_url="https://en.wikipedia.org/wiki/Psychological_evaluation"
           />
         </div>
       </div>
@@ -482,6 +490,7 @@ function FeatureSection() {
             }
             title="Quality and Authenticity of Treatment"
             description="Ensuring the highest standards of treatment efficacy and authenticity, delivering trustworthy care aligned with your health and wellness goals."
+            link_url="https://en.wikipedia.org/wiki/Health_care_quality"
           />
           <ImageContainer
             imageUrl="./images/service10.jpg"

@@ -172,7 +172,7 @@ const CardSlider = () => {
   ];
 
   return (
-    <div className="relative overflow-hidden h-screen  w-7/5 flex justify-center items-center mt-20">
+    <div className="relative overflow-hidden h-screen  w-7/5 flex justify-center items-center mt-20 bg-slate-500">
       {!isMobile && (
         <div className="absolute ml-[90px] top-1/2 left-1/4 transform -translate-x-1/2 -translate-y-1/2">
           <FancyCarousel
