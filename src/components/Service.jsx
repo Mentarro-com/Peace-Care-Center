@@ -65,7 +65,7 @@ function FeatureSection() {
       const handleScroll = () => {
         const scrollPosition = window.scrollY;
         const windowHeight = window.innerHeight;
-        const targetPositionFirst = windowHeight * 0;
+        const targetPositionFirst = windowHeight * -0.1;
         const targetPositionSecond = windowHeight * 0.6;
         const targetPositionThird = windowHeight * 1.3;
         const targetPositionFourth = windowHeight * 2.2;
