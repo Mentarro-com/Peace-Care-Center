@@ -71,7 +71,7 @@ function ContactPhone() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition-all duration-200 text-3xl text-zinc-900 hover:text-pink-600 hover:underline"
-                >+98765432</a>
+                >+919789053645</a>
                 
               </div>
             </div>

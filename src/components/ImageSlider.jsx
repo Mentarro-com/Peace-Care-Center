@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useCallback, useMemo } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
-import pic1 from "./images/1.jpg";
-import pic2 from "./images/2.jpg";
-import pic3 from "./images/3.jpg";
-import pic4 from "./images/4.jpg";
+import pic1 from "./images/admin.jpg";
+import pic2 from "./images/awar.jpg";
+import pic3 from "./images/award.jpg";
+import pic4 from "./images/adminpic.jpg";
 
 const ImageSlider = () => {
   const [slides, setSlides] = useState([]);

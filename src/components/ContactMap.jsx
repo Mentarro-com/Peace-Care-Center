@@ -9,7 +9,7 @@ const ContactPage = () => {
     <section className="mb-32">
       <div id="map" className="relative h-[300px] overflow-hidden bg-cover bg-[50%] bg-no-repeat">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3887.864004592304!2d80.12908827507655!3d12.9805488873357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDU4JzUwLjAiTiA4MMKwMDcnNTQuMCJF!5e0!3m2!1sen!2sin!4v1718204192531!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62205.81511082331!2d80.05537654863281!3d12.980584699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525f9ac9a74fe9%3A0xe56cb1f80ea3e01c!2sPeace%20Life%20Care%20Centre!5e0!3m2!1sen!2sin!4v1718463705118!5m2!1sen!2sin"
           width="100%" height="100%" style={{ border: '0' }} allowFullScreen="" loading="lazy"></iframe>
       </div>
       <div className="container px-6 md:px-12 mt-28">
@@ -31,7 +31,7 @@ const ContactPage = () => {
                      </div>
                     <div>
                       <p className="mb-1 text-neutral-700">Phone:</p>
-                      <p className="text-lg font-semibold text-neutral-900">+91 96770 95098</p>
+                      <p className="text-lg font-semibold text-neutral-900">+91 9789053645</p>
                     </div>
                   </div>
                   <div className="mb-6 flex items-center">
@@ -40,7 +40,7 @@ const ContactPage = () => {
                     </div>
                     <div>
                       <p className="mb-1 text-neutral-700">Email:</p>
-                      <p className="text-lg font-semibold text-neutral-900">gogreencare2020@gmail.com</p>
+                      <p className="text-lg font-semibold text-neutral-900">pandian121212@gmail.com</p>
                     </div>
                   </div>
                   <div className="flex items-center">
@@ -49,7 +49,7 @@ const ContactPage = () => {
                     </div>
                     <div>
                       <p className="mb-1 text-neutral-700">Address:</p>
-                      <p className="text-lg font-semibold text-neutral-900">1No:15/179, Rajaji Street, Moovar Nagar, Pozhichalur, Chennai - 600074.</p>
+                      <p className="text-lg font-semibold text-neutral-900"> No.3, 12th Street, Balaji Nagar, Anakaputhur, Chennai-600070.</p>
                     </div>
                   </div>
                 </div>

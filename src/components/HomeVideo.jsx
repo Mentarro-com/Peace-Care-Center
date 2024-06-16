@@ -4,6 +4,7 @@ import "animate.css/animate.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./stylings.css";
 import { Link } from "react-router-dom";
+import pic from './images/peace.mp4'
 
 
 const VideoCarousel = () => {
@@ -22,7 +23,7 @@ const VideoCarousel = () => {
     <div className="video-container">
       <video autoPlay loop muted className="background-video">
         <source
-          src="https://www.aroharehab.com/wp-content/uploads/2023/08/aroha-vid-4.mp4"
+          src={pic}
           type="video/mp4"
         />
       </video>
@@ -58,8 +59,7 @@ const VideoCarousel = () => {
             <div className="carousel-caption">
               <h5>Experienced Doctors</h5>
               <p className="para-container">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                tempore quis esse quidem fugiat cum.
+              Our team of highly skilled doctors and therapists is dedicated to providing personalized care to help you on your journey to recovery. We utilize the latest treatment methods and a holistic approach to ensure the best outcomes for our patients.
               </p>
               <p className="para-container">
                 <Link to="/ContactPage">

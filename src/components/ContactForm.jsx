@@ -20,7 +20,7 @@ const WhatsAppForm = () => {
   const handleSubmit = () => {
     const { name, message } = formData;
     const whatsappMessage = `Hello, my name is ${name}. I want to send the following message: ${message}`;
-    const whatsappLink = `https://wa.me/9894404496?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappLink = `https://wa.me/9789053645?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappLink, '_blank');
   };
 
