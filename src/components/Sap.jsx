@@ -11,25 +11,22 @@ import React from 'react'
 
 function Sap() {
   return (
-    <div className="flex justify-center m-0 p-0  ">
-      <Carousel infiniteLoop autoPlay >
-        <div className="imageSlide bg-slate-50 ">
+    <div className = "Image-Slider">
+      <Carousel infiniteLoop autoPlay>
+        <div className="sliderImage">
           <img src={img1} alt="image1" />
         </div>
-        <div className="mx-auto h-full w-auto  bg-slate-200">
-          <img src={img2} alt="img2"  />
+        <div className="sliderImage ">
+          <img src={img2} alt="img2" />
         </div>
-        <div className="mx-auto h-full w-auto bg-slate-200">
+        <div className="sliderImage">
           <img src={img3} alt="img3" />
         </div>
-        <div className="mx-auto h-full w-auto  bg-slate-200">
+        <div className="sliderImage">
           <img src={img4} alt="img4" />
         </div>
-        <div className="mx-auto h-full w-auto  bg-slate-200">
+        <div className="sliderImage">
           <img src={img5} alt="img5" />
-        </div>
-        <div className="mx-auto h-full w-auto  bg-slate-200">
-          <img src={img6} alt="img5" />
         </div>
       </Carousel>
     </div>

@@ -26,63 +26,77 @@
 .carousel .control-dots .dot {
   padding: 0px;
 }
+
 .imageSlide {
   margin: 0 auto;
   height: 100%;
   width: auto;
 }
+/*=====SAP======*/
+.Image-Slider{
+  margin : 0;
+  padding : 0;
+  box-sizing : border-box;
+  align-items: center;
+}
 
 .carousel {
   display: flex;
   justify-content: center;
+  height : 100%;
+  
 }
-.carousel .slide {
-  background-color: rgb(189, 22, 22);
+.carousel .slider-wrapper .slide {
+  
   height: 80vh;
-  padding: 0px;
 }
-.carousel .slide img {
+.carousel .slider-wrapper .slide img {
   max-height: 100%;
   width: auto;
+}
+.sliderImage{
+  margin : 0 auto;
+  height : 100%;
+  width : auto;
 }
 @media only screen and (max-width: 1200px) {
   .carousel {
     height: 90vh;
   }
-  .carousel .slide .img {
+  .carousel .slider-wrapper .slide img {
     margin: 10vh auto;
-    width: 100vw;
+    width: auto ;
+  }
+  .carousel .thumbs-wrapper{
+    height: 20vh;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .carousel {
+    height: 100vh;
   }
 }
 @media only screen and (max-width: 900px) {
   .carousel {
-    height: 80vh;
+    height: 100vh;
   }
 }
 @media only screen and (max-width: 750px) {
   .carousel {
-    height: 70vh;
+    height: 100vh;
   }
-  .carousel .slide .img {
-    margin: 10vh auto;
-    width: 100vw;
-  }
+  
 }
 @media only screen and (max-width: 650px) {
   .carousel {
     height: 60vh;
-  }
-  .carousel .slide .img {
-    margin: 10vh auto;
-    width: 100vw;
   }
 }
 @media only screen and (max-width: 500px) {
   .carousel {
     height: 50vh;
   }
-  .carousel .slide .img {
-    margin: 10vh auto;
-    width: 100vw;
+  .carousel .thumbs-wrapper{
+    height: 20vh;
   }
 }

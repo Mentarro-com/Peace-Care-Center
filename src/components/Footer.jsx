@@ -200,7 +200,7 @@ function Footer() {
               <p className="text-deutziawhite font-inter text-[18px] font-medium leading-normal">
                 Pages
               </p>
-              <ul className="mt-2 sm:mt-3">
+              <ul className="mt-2 sm:mt-3 p-0">
                 {" "}
                 {/* Adjusted margin for small screens */}
                 <li className="lg:mt-[9px]">

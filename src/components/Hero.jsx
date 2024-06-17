@@ -11,10 +11,10 @@ function Hero() {
   });
 
   const opacity1 = useTransform(scrollYProgress, [0, 0.3], [0, 1]);
-  const translateY1 = useTransform(scrollYProgress, [0, 0.3], [-50, 0]);
+  const translateY1 = useTransform(scrollYProgress, [0, 0.3], [-75, 0]);
 
   const opacity2 = useTransform(scrollYProgress, [0.2, 0.5], [0, 1]);
-  const translateY2 = useTransform(scrollYProgress, [0.2, 0.5], [-50, 0]);
+  const translateY2 = useTransform(scrollYProgress, [0.2, 0.5], [-100, 0]);
 
   const opacity3 = useTransform(scrollYProgress, [0.4, 0.7], [0, 1]);
   const translateY3 = useTransform(scrollYProgress, [0.4, 0.7], [-50, 0]);
