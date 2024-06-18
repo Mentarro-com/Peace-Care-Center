@@ -23,7 +23,7 @@ function FeatureCard({ icon, title, description,link_url}) {
           <div className="mt-6">
             <a
               className="mb -8 inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
-              href={link_url} 
+              href={link_url}  target="_blank" rel="noopener noreferrer"
             >
               Learn More
             </a>

@@ -36,22 +36,21 @@ const VideoCarousel = () => {
           <div className="carousel-item active">
             <div className="carousel-caption">
               <h5>Experienced Doctors</h5>
-              <p className="para-container">
+              <p className="text-xs sm:text-2xl">
               Our team of highly skilled doctors and therapists is dedicated to providing personalized care to help you on your journey to recovery. We utilize the latest treatment methods and a holistic approach to ensure the best outcomes for our patients.
               </p>
-              <p className="para-container">
+              <p className="para-container ">
                 <Link to="/ContactPage">
-                  <a className="para">Contact Us</a>
+                  <a className="para ">Contact Us</a>
                 </Link>
               </p>
             </div>
           </div>
           <div className="carousel-item">
             <div className="carousel-caption">
-              <h5>Modern Machineries</h5>
-              <p className="para-container">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                tempore quis esse quidem fugiat cum.
+              <h5>Modern Treatment</h5>
+              <p className="text-xs sm:text-2xl">
+              Evidence-based therapies and holistic practices , mindfulness, and yoga to promote comprehensive recovery.
               </p>
               <p className="para-container">
                 <Link to="/ContactPage">
@@ -63,9 +62,8 @@ const VideoCarousel = () => {
           <div className="carousel-item">
             <div className="carousel-caption">
               <h5>24 / 7 Services</h5>
-              <p className="para-container">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                tempore quis esse quidem fugiat cum.
+              <p className="text-xs sm:text-2xl">
+              We offer round-the-clock (24/7) service care to ensure continuous support for our clients. Our dedicated team is always available to address any needs or concerns.
               </p>
               <p className="para-container">
                 <Link to="/ContactPage">

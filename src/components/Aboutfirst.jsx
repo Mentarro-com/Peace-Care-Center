@@ -1,11 +1,12 @@
 import React from "react";
+import pic from "./images/admin_pandian.jpg" 
 
 const AboutUsPage = () => {
     
   return (
     <div className="flex justify-center items-center flex-wrap mb-4 mt-9">
       <div className="w-full md:w-1/2 p-4 md:p-9">
-        <img src="./images/service1.jpg" alt="Left Image" className="w-full h-auto rounded-lg" />
+        <img src={pic} alt="ADMIN_IMAGE" className="w-full h-auto rounded-lg" />
       </div>
       
       <div className="w-full md:w-1/2 p-4 md:p-8">

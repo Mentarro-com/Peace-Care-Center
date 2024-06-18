@@ -11,7 +11,7 @@ const FeaturesSection = () => {
     md: 0,
     lg: 0,
     xl: 0,
-    df: 0, // default
+    df: 0, 
   };
 
   useEffect(() => {
@@ -51,7 +51,8 @@ const FeaturesSection = () => {
       window.removeEventListener("scroll", handleScroll);
       window.removeEventListener("resize", handleResize);
     };
-  }, []);
+  }, [targetPositions]);
+  
   const springProps = useSpring({
     opacity: isVisible ? 1 : 0,
     transform: isVisible ? "translateY(20px)" : "translateY(5px)",
@@ -78,16 +79,16 @@ const FeaturesSection = () => {
   });
 
   return (
-    <div className="bg-slate-900">
+    <div className="bg-slate-200">
       <section
         id="features"
-        className="px-2 space-y-6 py-8 md:py-12 lg:py-24 max-w-5xl mx-auto bg-slate-900"
+        className="px-2 space-y-6 py-8 md:py-12 lg:py-24 max-w-5xl mx-auto bg-slate-200"
       >
-        <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center text-white">
-          <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
+        <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center ">
+          <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl text-zinc-800">
             Wellness Services
           </h2>
-          <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
+          <p className="text-zinc-800 max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
             Supportive services designed to facilitate your path towards a
             balanced and thriving lifestyle.
           </p>
@@ -95,7 +96,7 @@ const FeaturesSection = () => {
         <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-4">
           {/* Card 1 */}
           <animated.div style={springProps}>
-            <div className="relative overflow-hidden rounded-lg relative mx-auto max-w-md rounded-lg bg-gradient-to-tr from-pink-400 to-blue-400 p-0.5 shadow-lg p-2 text-black   hover:scale-105 transition-transform duration-300 ease-in-out">
+            <div className="overflow-hidden  relative mx-auto max-w-md rounded-lg bg-gradient-to-tr from-pink-400 to-blue-400 p-0.5 shadow-lg p-2 text-black   hover:scale-105 transition-transform duration-300 ease-in-out">
               <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
                 <svg
                   width="48"

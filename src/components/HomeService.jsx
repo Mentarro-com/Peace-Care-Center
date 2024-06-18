@@ -28,7 +28,7 @@ function HomeService() {
   });
 
   return (
-    <div className="max-w-screen-xl mx-auto py-8 px-4 lg:py-16 lg:px-6 mt-24  text-black">
+    <div className="max-w-screen-xl mx-auto py-8 px-4 lg:py-16 lg:px-6 text-black">
       <div className="text-center mb-10">
         <h2 className="text-4xl tracking-tight font-bold text-primary-800">
           Highlighted Features

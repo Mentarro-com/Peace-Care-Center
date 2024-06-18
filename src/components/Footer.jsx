@@ -114,7 +114,7 @@ function Footer() {
         <div className="flex flex-col justify-between sm:px-[18px] md:flex-row md:px-10">
           <div className="md:w-[316px] ">
             <h1 className="text-white font-extrabold text-[18px]">
-              <span className="text-rose-600">Y</span>L
+              <span className="text-green-800">P </span>L
             </h1>
             <p className="mt-[18px] text-[15px] font-normal text-white/[80%]">
               Peace Life Care Centre in Chennai is one of the leading businesses
@@ -127,6 +127,7 @@ function Footer() {
                 href="tel:+919789053645"
                 target="_blank"
                 className="hover:scale-110 hover:text-green-800"
+                 rel="noopener noreferrer"
               >
                 <FiPhone className="text-[30px]" />
               </a>
@@ -264,7 +265,7 @@ function Footer() {
         <hr className="mt-[30px] text-white" />
         <div className="flex items-center justify-center pb-8 pt-[9px] md:py-8">
           <p className="text-[10px] font-normal text-white md:text-[12px]">
-            © Copyright 2024, All Rights Reserved by YOUR WEBSITES. PVT. LTD
+            © Copyright 2024, All Rights Reserved by PEACE LIFE CARE CENTER
             <br />
           </p>
         </div>

@@ -21,7 +21,7 @@ const Images = (props) => {
             alt={slide.title}
             className="w-full transition duration-200 group-hover:scale-110"
           />
-          <p className="cursor-pointer absolute inset-0 bg-black h-10 bg-opacity-25 border border-gray-500 flex items-end justify-center text-2xl  text-white font-roboto font-bold group-hover:bg-opacity-60 transition">
+          <p className="cursor-pointer absolute inset-0 bg-black h-10 bg-opacity-25 border-b-2 border-slate-300 flex items-end justify-center text-2xl  text-white font-roboto font-bold group-hover:bg-opacity-60 transition">
             {slide.title}
           </p>
         </div>

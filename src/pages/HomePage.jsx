@@ -1,8 +1,6 @@
 import React from "react";
-import HomeBg from "../components/HomeBg";
 import HomeService from "../components/HomeService";
 import CircleSlider from "../components/CircleSlider";
-import ImageSlider from "../components/ImageSlider";
 import { motion } from "framer-motion";
 import Hero from "../components/Hero";
 import Hero2 from "../components/Heros";
@@ -19,15 +17,16 @@ const HomePage = () => {
       animate={{ width: "100%" }}
       exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
     >
-      {/* <HomeBg /> */}
       <VideoCarousel />
       <Hero2 />
+      <div className="mt-[-100px] mb-[-210px] sm:mb-[8px] sm:mt-[-110px]  bg-slate-300">
       <Sap />
+      </div>
       <Hero />
       
       {/* <ImageSlider /> */}
       
-      <CircleSlider />
+      {/* <CircleSlider /> */}
       <HomeService />
     </motion.div>
   );

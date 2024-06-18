@@ -111,18 +111,7 @@ function Testimonial() {
                       {testimonial.content}
                     </p>
                   </div>
-                  <div className="flex items-center gap-5 border-t border-solid border-gray-200 pt-5">
-                    <img
-                      className="h-10 w-10 rounded-full"
-                      src={testimonial.avatar}
-                      alt="avatar"
-                    />
-                    <div className="block">
-                      <h5 className="text-gray-300 font-medium transition-all duration-500 mb-1">
-                        {testimonial.author}
-                      </h5>
-                    </div>
-                  </div>
+                  
                   <div className="h-2 w-full bg-gradient-to-l via-yellow-500 group-hover:blur-xl blur-2xl m-auto rounded transition-all absolute bottom-0"></div>
                   <div className="group-hover:w-full bg-gradient-to-l via-yellow-950 group-hover:via-yellow-500 w-[70%] m-auto rounded transition-all"></div>
                 </div>

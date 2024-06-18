@@ -9,7 +9,7 @@ const PhotoOne = () => {
           <h2 className="text-4xl lg:text-5xl text-center md:text-left text-red-600 leading-tight font-medium">
             TIME SCHEDULE
           </h2>
-          <h3 className="mt-6 md:mt-10 text-md lg:text-xl text-center md:text-left text-gray-700 font-light tracking-wider leading-relaxed">
+          <h3 className="mt-6 text-justify md:mt-10 text-sm  p-4 lg:text-xl  md:text-left sm:text-sm text-gray-700 font-light tracking-wider leading-relaxed">
           The rehabilitation center's daily schedule is thoughtfully designed to promote holistic well-being and structured recovery. The day begins at 6:00 am, followed by a series of activities that include prayer, tea breaks, yoga therapy or meditation, personal hygiene, and breakfast. Throughout the day, participants engage in various therapeutic sessions such as psycho therapy, group therapy, and step work, complemented by periods of silence and Big Book reading for reflection and self-improvement. Regular tea breaks, lunch, and an evening of entertainment or games provide balance and relaxation. The day concludes with in-house sharing, dinner, evening medicine, a session for thoughts and feelings, a final prayer, and bedtime at 10:00 pm. This comprehensive schedule ensures a supportive and nurturing environment for recovery.
           </h3>
           
