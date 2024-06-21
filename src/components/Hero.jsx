@@ -23,10 +23,10 @@ function Hero() {
 
   return (
     <div
-      className="w-full pb-9 dark:bg-gray-800 lg:mt-0 sm:mt-[-560px]"
+      className=" w-full pb-9 dark:bg-gray-800 lg:mt-0 sm:mt-[-1560px]"
       ref={ref}
     >
-      <div className="mx-auto max-w-7xl px-6 lg:px-8 pt-8">
+      <div className="sm:flex flex-col space-y-40 sm:space-y-0 mx-auto max-w-7xl px-6 lg:px-8 pt-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
             ADDICTION ENDS HERE

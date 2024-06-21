@@ -10,6 +10,7 @@ const GalleryPage = () => {
       initial={{ width: 0 }}
       animate={{ width: "100%" }}
       exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
+      className="bg-slate-50"
     >
       <Banner />
       <PhotoOne />

@@ -11,7 +11,8 @@ function Testimonial() {
       id: 1,
       rating: 4.9,
       content:
-        "GoGreenCare's Alcohol De-Addiction Centre saved me from despair. Their dedicated team and effective methods gave me a second chance at life. Forever grateful and i extend my sincere gratitude.",
+        "Peace Care Center changed my life. The caring staff and effective treatment helped me overcome my addiction. I'm now living a healthy, happy life. Thank you!"
+        ,
       author: "Jane D",
       avatar: "https://pagedone.io/asset/uploads/1696229969.png",
     },
@@ -19,7 +20,7 @@ function Testimonial() {
       id: 2,
       rating: 4.9,
       content:
-        "GoGreenCare's Drug De-Addiction Centre provided a lifeline when I was lost. Their compassionate approach and unwavering support helped me reclaim my future. I'm experiencing a significant improvement..",
+      "Thanks to Peace Care Center, I am addiction-free and thriving. Their supportive environment and personalized care made all the difference. Highly recommend!",
       author: "Jonas P.",
       avatar: "https://pagedone.io/asset/uploads/1696229994.png",
     },
@@ -27,7 +28,7 @@ function Testimonial() {
       id: 3,
       rating: 4.9,
       content:
-        "Thanks to GoGreenCare's Psychiatric Service, I found stability and hope. Their expertise and genuine care guided me through my darkest moments, restoring my confidence and purpose.",
+        "Peace Care Center provided the guidance and support I needed to reclaim my life from addiction. Their holistic approach truly works. Forever grateful!",
       author: "Adam M.",
       avatar: "https://pagedone.io/asset/uploads/1696230027.png",
     },
@@ -35,7 +36,7 @@ function Testimonial() {
       id: 4,
       rating: 4.9,
       content:
-        "Gratitude fills my heart for GoGreenCare's Counseling. Their empathetic therapists offered me solace and wisdom, empowering me to navigate life's challenges with resilience and optimism.",
+      "I owe my recovery to Peace Care Center. Their professional and supportive team guided me every step of the way. Today, I am addiction-free and thriving.",
       author: "Regina P.",
       avatar: "https://pagedone.io/asset/uploads/1696238396.png",
     },

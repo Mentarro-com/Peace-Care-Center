@@ -9,7 +9,7 @@ const Images = (props) => {
 
   
   return (
-    <div className="flex flex-col md:grid md:grid-cols-3 gap-12 p-7 bg-slate-700">
+    <div className="flex flex-col md:grid md:grid-cols-3 gap-12 p-7 bg-slate-200">
       {data.map((slide, index) => (
         <div
           className="image group relative rounded overflow-hidden "

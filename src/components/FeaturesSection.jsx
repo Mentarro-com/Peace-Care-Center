@@ -79,12 +79,12 @@ const FeaturesSection = () => {
   });
 
   return (
-    <div className="bg-slate-200">
+    <div style={{ backgroundColor: '#F1E5D8' }}>
       <section
         id="features"
-        className="px-2 space-y-6 py-8 md:py-12 lg:py-24 max-w-5xl mx-auto bg-slate-200"
+        className="px-2 space-y-6 py-8 md:py-12 lg:py-24 max-w-5xl mx-auto"
       >
-        <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center ">
+        <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center text-yellow-900 ">
           <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl text-zinc-800">
             Wellness Services
           </h2>
@@ -93,7 +93,7 @@ const FeaturesSection = () => {
             balanced and thriving lifestyle.
           </p>
         </div>
-        <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-4">
+        <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-4 text-yellow-900">
           {/* Card 1 */}
           <animated.div style={springProps}>
             <div className="overflow-hidden  relative mx-auto max-w-md rounded-lg bg-gradient-to-tr from-pink-400 to-blue-400 p-0.5 shadow-lg p-2 text-black   hover:scale-105 transition-transform duration-300 ease-in-out">
@@ -254,7 +254,7 @@ const FeaturesSection = () => {
                   />
                 </svg>
                 <div className="space-y-2">
-                  <h3 className="font-bold">Continuous Assistance</h3>
+                  <h3 className="font-bold">Support</h3>
                   <p className="text-sm text-muted-foreground">
                     24 hour support & aftercare packages.
                   </p>

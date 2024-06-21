@@ -67,7 +67,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="flex justify-between items-center h-16 shadow-lg z-50 px-6">
+      <nav className="flex justify-between items-center h-16 shadow-lg z-50 px-6 sticky top-0 bg-white">
        
         <img src={logo} alt="PEACE_LIFE_LOGO" className="w-32 h-14"/>
          

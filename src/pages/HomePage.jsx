@@ -7,12 +7,10 @@ import Hero2 from "../components/Heros";
 import Sap from "../components/Sap";
 import VideoCarousel from "../components/HomeVideo";
 
-
-
 const HomePage = () => {
   return (
     <motion.div
-      className="bg-slate-50"
+      style={{ backgroundColor: "rgb(237, 235, 229)" }}
       initial={{ width: 0 }}
       animate={{ width: "100%" }}
       exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
@@ -20,13 +18,13 @@ const HomePage = () => {
       <VideoCarousel />
       <Hero2 />
       <div className="mt-[-100px] mb-[-210px] sm:mb-[8px] sm:mt-[-110px]  bg-slate-300">
-      <Sap />
+        <Sap />
       </div>
       <Hero />
-      
+
       {/* <ImageSlider /> */}
-      
-      {/* <CircleSlider /> */}
+
+      <CircleSlider />
       <HomeService />
     </motion.div>
   );
