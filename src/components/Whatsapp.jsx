@@ -8,7 +8,7 @@ function WhatsApp() {
 
   return (
     <div>
-      <FloatingWhatsApp  accountName="Mr Pandian"  avatar={picture} statusMessage="online" phoneNumber="9894404496" allowEsc
+      <FloatingWhatsApp  accountName="Mr Pandian"  avatar={picture} statusMessage="online" phoneNumber="+919789053645" allowEsc
         allowClickAway
         notification
         notificationSound/> 

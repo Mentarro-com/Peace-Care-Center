@@ -33,7 +33,7 @@ const VideoCarousel = () => {
         data-bs-ride="carousel"
       >
         <div className="carousel-inner">
-          <div className="carousel-item active" data-bs-interval="5000">
+          <div className="carousel-item active" data-bs-interval="3000">
             <div className="carousel-caption">
               <h5>Experienced Doctors</h5>
               <p className="text-xs sm:text-2xl">
@@ -46,7 +46,7 @@ const VideoCarousel = () => {
               </p>
             </div>
           </div>
-          <div className="carousel-item" data-bs-interval="5000">
+          <div className="carousel-item" data-bs-interval="3000">
             <div className="carousel-caption">
               <h5>Modern Treatment</h5>
               <p className="text-xs sm:text-2xl">
@@ -59,7 +59,7 @@ const VideoCarousel = () => {
               </p>
             </div>
           </div>
-          <div className="carousel-item" data-bs-interval="5000">
+          <div className="carousel-item" data-bs-interval="3000">
             <div className="carousel-caption">
               <h5>24 / 7 Services</h5>
               <p className="text-xs sm:text-2xl">

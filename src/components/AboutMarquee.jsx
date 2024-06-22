@@ -53,7 +53,7 @@ const TechStackMarquee = () => {
               <img src="./images/service3.jpg" className="h-40 w-40" />
             </div>
             <div className="tech-item flex items-center">
-              <img src="./images/service4.webp" className="h-40 w-40" />
+              <img src="./images/smoke.webp" className="h-40 w-40" />
             </div>
             <div className="tech-item flex items-center">
               <img src="./images/service5.webp" className="h-40 w-40" />
@@ -62,7 +62,7 @@ const TechStackMarquee = () => {
               <img src="./images/service6.jpg" className="h-40 w-40" />
             </div>
             <div className="tech-item flex items-center">
-              <img src="./images/service7.jpg" className="h-40 w-40" />
+              <img src="./images/doctor.webp" className="h-40 w-40" />
             </div>
             <div className="tech-item flex items-center">
               <img src="./images/service8.jpg" className="h-40 w-40" />

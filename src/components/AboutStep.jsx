@@ -47,7 +47,7 @@ function HowItWorksSection() {
       ? "translateX(0%)"
       : isVisibleFirst
       ? "translateX(0%)"
-      : "translateX(-100%)",
+      : "translateY(100%)",
     config: { duration: 500 },
     delay: isVisibleFirst ? 500 : 0,
   });
@@ -80,7 +80,7 @@ function HowItWorksSection() {
       ? "translateX(0%)"
       : isVisibleFour
       ? "translateX(0%)"
-      : "translateX(100%)",
+      : "translateY(-100%)",
     config: { duration: 500 },
     delay: isVisibleFour ? 500 : 0,
   });
@@ -92,7 +92,7 @@ function HowItWorksSection() {
           <p className="text-sm font-bold uppercase tracking-widest text-gray-700">
             Start Your Recovery Journey With
           </p>
-          <h2 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
+          <h2 className="mt-6 text-3xl text-blue-900 font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
             Peace Life Care Rehabilitation Center
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg font-normal text-gray-700 lg:text-xl lg:leading-8">

@@ -6,7 +6,7 @@ import img3 from "./images/counseling.jpg";
 import img4 from "./images/classroom.jpg";
 import img5 from "./images/hall.jpg";
 import img6 from "./images/bed22.jpg";
-import img7 from "./images/outside.jpg";
+import img7 from "./images/outside_cleanup (1).jpg";
 import React from 'react'
 
 function Sap() {

@@ -296,7 +296,7 @@ function FeatureSection() {
             link_url="https://en.wikipedia.org/wiki/Smoking_cessation"
           />
           <ImageContainer
-            imageUrl="./images/service4.webp"
+            imageUrl="./images/smoke.webp"
             imageAlt="Natural Language Processing (NLP)"
           />
         </div>
@@ -373,7 +373,7 @@ function FeatureSection() {
       <div className="relative">
         <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
         <ImageContainer
-            imageUrl="./images/service7.jpg"
+            imageUrl="./images/doctor.webp"
             imageAlt="Natural Language Processing (NLP)"
           />
           <FeatureCard

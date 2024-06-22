@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { CSSTransition } from 'react-transition-group';
 import FancyCarousel from "react-fancy-circular-carousel";
 import 'react-fancy-circular-carousel/FancyCarousel.css';
-import logo from './images/imgs3.jpeg'; // Import your logo image
+import logo from './images/favi.png'; 
 import img1 from './images/sar.jpeg';
 import img2 from './images/smoke.jpeg';
 import img3 from './images/service2.jpg';
@@ -34,9 +34,9 @@ const Info1 = ({ text, isMobile }) => {
   ));
 
   return (
-    <div className={`p-4 rounded-lg ${isMobile ? 'bg-navy text-white' : 'bg-blue-800 text-white'} relative`} style={{
+    <div className={`p-9 rounded-lg ${isMobile ? 'bg-navy text-white' : 'bg-blue-800 text-white'} relative`} style={{
       ...boxSize,
-      fontSize: '18px',
+      fontSize: '16px',
       overflow: 'hidden',
       wordWrap: 'break-word',
       background: 'rgba(255, 255, 255, 0.1)',
@@ -45,7 +45,7 @@ const Info1 = ({ text, isMobile }) => {
       WebkitBackdropFilter: 'blur(4.5px)',
       borderRadius: '10px',
       border: '1px solid rgba(255, 255, 255, 0.18)',
-      marginLeft: '-20px', 
+       
       textAlign:'justify'
       
     
@@ -63,7 +63,7 @@ const ServiceCard = ({ service, isMobile, onLeftClick, onRightClick }) => {
 
   return (
     <div 
-      className={`p-4  my-4 rounded-lg border border-gray-300 shadow-md service-card ${isHovered ? 'transform scale-105 transition-transform duration-300' : 'transition-transform duration-300'}`}
+      className={`p-2  my-4 rounded-lg border border-gray-300 shadow-md service-card ${isHovered ? 'transform scale-105 transition-transform duration-300' : 'transition-transform duration-300'}`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       style={{ 
@@ -125,7 +125,7 @@ const App = () => {
   ];
 
   return (
-    <div className={`relative h-screen w-screen overflow-hidden flex justify-center items-center ${isMobile ? '' : 'bg-cover bg-center'}`} style={isMobile ? {} : { backgroundImage: `url(${back})` }}>
+    <div className={`relative h-screen w-100% overflow-hidden flex justify-center items-center ${isMobile ? '' : 'bg-cover bg-center'}`} style={isMobile ? {} : { backgroundImage: `url(${back})` }}>
       {!isMobile && (
         <div className="absolute top-1/2 left-1/4 transform -translate-x-1/2 -translate-y-1/2">
           <FancyCarousel
@@ -133,13 +133,13 @@ const App = () => {
             setFocusElement={setFocusElement}
             carouselRadius={200}
             peripheralImageRadius={50}
-            centralImageRadius={80}
+            centralImageRadius={50}
             focusElementStyling={{ border: '2px solid #ba4949' }}
             autoRotate={false}
             autoRotateTime={5}
             borderWidth={4}
             borderHexColor={'1c364f'}
-            centralImageIndex={3}
+            centralImageIndex={6}
             className="z-0"
           />
           <img src={logo} alt="Logo" className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48 h-48 rounded-full" />
