@@ -4,8 +4,7 @@ import "animate.css/animate.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./stylings.css";
 import { Link } from "react-router-dom";
-import pic from './images/peace.mp4'
-
+import pic from "./images/peace.mp4";
 
 const VideoCarousel = () => {
   useEffect(() => {
@@ -22,10 +21,7 @@ const VideoCarousel = () => {
   return (
     <div className="video-container">
       <video autoPlay loop muted className="background-video">
-        <source
-          src={pic}
-          type="video/mp4"
-        />
+        <source src={pic} type="video/mp4" />
       </video>
       <div
         id="carouselExampleCaptions"
@@ -37,12 +33,15 @@ const VideoCarousel = () => {
             <div className="carousel-caption">
               <h5>Experienced Doctors</h5>
               <p className="text-xs sm:text-2xl">
-              Our team of highly skilled doctors and therapists is dedicated to providing personalized care to help you on your journey to recovery. We utilize the latest treatment methods and a holistic approach to ensure the best outcomes for our patients.
+                Our team of highly skilled doctors and therapists is dedicated
+                to providing personalized care to help you on your journey to
+                recovery. We utilize the latest treatment methods and a holistic
+                approach to ensure the best outcomes for our patients.
               </p>
               <p className="para-container ">
-                <Link to="/ContactPage">
-                  <a className="para ">Contact Us</a>
-                </Link>
+                <a className="para " href="/ContactPage">
+                  Contact Us
+                </a>
               </p>
             </div>
           </div>
@@ -50,12 +49,13 @@ const VideoCarousel = () => {
             <div className="carousel-caption">
               <h5>Modern Treatment</h5>
               <p className="text-xs sm:text-2xl">
-              Evidence-based therapies and holistic practices , mindfulness, and yoga to promote comprehensive recovery.
+                Evidence-based therapies and holistic practices , mindfulness,
+                and yoga to promote comprehensive recovery.
               </p>
-              <p className="para-container">
-                <Link to="/ContactPage">
-                  <a className="para">Contact Us</a>
-                </Link>
+              <p className="para-container ">
+                <a className="para " href="/ContactPage">
+                  Contact Us
+                </a>
               </p>
             </div>
           </div>
@@ -63,12 +63,14 @@ const VideoCarousel = () => {
             <div className="carousel-caption">
               <h5>24 / 7 Services</h5>
               <p className="text-xs sm:text-2xl">
-              We offer round-the-clock (24/7) service care to ensure continuous support for our clients. Our dedicated team is always available to address any needs or concerns.
+                We offer round-the-clock (24/7) service care to ensure
+                continuous support for our clients. Our dedicated team is always
+                available to address any needs or concerns.
               </p>
-              <p className="para-container">
-                <Link to="/ContactPage">
-                  <a className="para">Contact Us</a>
-                </Link>
+              <p className="para-container ">
+                <a className="para " href="/ContactPage">
+                  Contact Us
+                </a>
               </p>
             </div>
           </div>
