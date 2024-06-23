@@ -25,6 +25,7 @@
     "react-fancy-circular-carousel": "^1.0.8",
     "react-fast-marquee": "^1.6.4",
     "react-floating-whatsapp": "^5.0.8",
+    "react-helmet": "^6.1.0",
     "react-icons": "^5.1.0",
     "react-image-gallery": "^1.3.0",
     "react-konva": "^16.8.0",
