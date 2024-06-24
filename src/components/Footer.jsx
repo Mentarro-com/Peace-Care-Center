@@ -132,23 +132,23 @@ function Footer() {
                 <FiPhone className="text-[30px]" />
               </a>
               <a
-                href="#"
-                target="_blank"
+                href="https://www.instagram.com/peace_life_care_center?igsh=MTAxNWUyZmhqaXBkaA=="
+                target="_blank" rel="noopener noreferrer"
                 className="hover:scale-110 hover:text-pink-800"
               >
                 <FaInstagram className="text-[30px]" />
               </a>
               
               <a
-                href="#"
-                target="_blank"
+                href="https://api.whatsapp.com/send/?phone=+919789053645"
+                target="_blank" rel="noopener noreferrer"
                 className="hover:scale-110 hover:text-green-800"
               >
                 <FaWhatsapp className="text-[30px]" />
               </a>
               <a
                 href="mailto:pandian121212@gmail.com"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
                 className="hover:scale-110 hover:text-red-800"
               >
                 <FiMail className="text-[30px]" />

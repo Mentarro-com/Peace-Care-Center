@@ -3,7 +3,6 @@ import styles from "bootstrap/dist/css/bootstrap.min.css";
 import "animate.css/animate.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./stylings.css";
-import { Link } from "react-router-dom";
 import pic from "./images/peace.mp4";
 
 const VideoCarousel = () => {

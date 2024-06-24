@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { animated, useSpring } from "react-spring";
-import instapic from "./images/insta-pic.jpg";
+import instapic from "./images/wapp.jpeg";
 function ContactPhone() {
 
     const [isVisible, setIsVisible] = useState(false);
@@ -42,7 +42,7 @@ function ContactPhone() {
             <div className="sm:w-1/2 p-10">
               <div className="image object-center text-center lg:ml-36">
                 <div
-                  className="relative flex justify-center h-[440px] w-[230px] border-4 border-black rounded-2xl shadow-lg p-8"
+                  className="relative flex justify-center h-[440px] w-[210px] border-4 border-black rounded-2xl shadow-lg p-8"
                   style={{
                     backgroundImage: `url(${instapic})`,
                     backgroundSize: "contain",
@@ -67,11 +67,11 @@ function ContactPhone() {
                   On <span className="text-red-600">Our Page</span>
                 </h2>
                 <a
-                  href="https://www.instagram.com/mentarro/"
+                  href="https://www.instagram.com/peace_life_care_center?igsh=MTAxNWUyZmhqaXBkaA=="
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="transition-all duration-200 text-3xl text-zinc-900 hover:text-pink-600 hover:underline"
-                >+919789053645</a>
+                  className="transition-all duration-200 text-3xl text-zinc-900 hover:text-pink-600  no-underline"
+                >peace_life_care_center</a>
                 
               </div>
             </div>
