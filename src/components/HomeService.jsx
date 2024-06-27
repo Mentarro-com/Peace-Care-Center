@@ -10,7 +10,7 @@ function HomeService() {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       const windowHeight = window.innerHeight;
-      const targetPositionFirst = windowHeight * 2.5;
+      const targetPositionFirst = windowHeight * 4.5;
       setIsVisibleFirst(scrollPosition > targetPositionFirst);
     };
 
