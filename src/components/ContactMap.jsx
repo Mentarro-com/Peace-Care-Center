@@ -49,7 +49,7 @@ const ContactPage = () => {
                     </div>
                     <div>
                       <p className="mb-1 text-neutral-700">Address:</p>
-                      <p className="text-lg font-semibold text-neutral-900"> No.3, 12th Street, Balaji Nagar, Anakaputhur, Chennai-600070.</p>
+                      <p className="text-lg font-semibold text-neutral-900"> No.3, 12th Street, Balaji Nagar, Anakaputhur, Pallavaram, Chennai-600070.</p>
                     </div>
                   </div>
                 </div>
